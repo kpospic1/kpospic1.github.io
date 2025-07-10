@@ -30,7 +30,7 @@ body {
     /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
     font-family: serif;
 	width:100%;	
-	background-color:#ffffff;
+	background-color:#C0C2C5;
 	/*margin:0 auto;*/
 	/*background-attachment: fixed;*/
     font-variant-ligatures: no-common-ligatures;
@@ -222,7 +222,12 @@ input.HiddenInputBox {
 }
 
 @media print {
-     form {
+
+body {	
+	background-color:#ffffff;
+}
+	
+form {
 	width:1080px;
 	background-color:#fff;
 	margin:0 auto;
