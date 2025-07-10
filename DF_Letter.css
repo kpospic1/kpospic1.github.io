@@ -214,5 +214,9 @@ input.HiddenInputBox {
 	background-color: #ffffff;
 	border-color: #ffffff;
 	border-style: solid;
+	border: 1x solid #ccc;
+  	outline: none;
+  	box-shadow: none;
+  	padding: 2px;
 	
 }
