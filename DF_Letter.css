@@ -209,3 +209,8 @@ Only css classes. No ID css
 .AnyName2 {
   color:#981b1e;
 }
+
+.HiddenInputBox {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
