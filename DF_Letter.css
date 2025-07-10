@@ -228,17 +228,7 @@ body {
 }
 	
 form {
-	width:1080px;
-	background-color:#fff;
-	margin:0 auto;
-	margin-top:60px;
-	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;*/
 	border: none;
-	
      }
 
 }
