@@ -213,5 +213,6 @@ Only css classes. No ID css
 input.HiddenInputBox {
 	background-color: #ffffff;
 	border-color: #ffffff;
+	border-style: solid;
 	
 }
