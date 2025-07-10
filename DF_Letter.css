@@ -210,7 +210,7 @@ Only css classes. No ID css
   color:#981b1e;
 }
 
-.HiddenInputBox {
+#FormPage.HiddenInputBox {
 	background-color: #ffffff;
 	border-color: #ffffff;
 	color: #ffffff;
