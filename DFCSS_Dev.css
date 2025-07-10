@@ -55,10 +55,10 @@ form {
 	margin-top:60px;
 	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);*/
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 10px;*/
 }
 
 #FormPage {
@@ -121,7 +121,7 @@ p {
 table #FormPage {
     border: 1px solid lightgray;
     border-radius: 15px 25px 10px; 
-    box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
+    /*box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);*/
     background-color: #ffffff;
 }
 /*Added 2/24*/
