@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/* 
+Default. Do not change names, only what is inside 
+You can also add any other html tags, such as 
+p, div, h1, strong, etc.
+
+Also update the background-image:url with the URL for the logo uploaded to the dynamic forms server e.g. /DynamicFormsLogo_125px.png
+
+Ex:
+body {
+	font-family: sans-serif;
+	width:500px;	
+	background-color:#F8F8;
+	margin:0 auto;
+	font-size:20px;
+}
+
+https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
+
+
+@import url(https://fonts.googleapis.com/css?family=Barlow);
+ 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+*/
+
+body {
+    /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
+    font-family: serif;
+	width:100%;	
+	background-color:#ffffff;
+	/*margin:0 auto;*/
+	/*background-attachment: fixed;*/
+    font-variant-ligatures: no-common-ligatures;
+	font-size:13px;
+	background-size:cover;
+}
+
+body #formBody {
+    background-color: #e4e2e0;
+}
+
+/*Horizontal line 2/28*/
+hr {
+  border-top: 4px solid #000990;
+  width: 100%;
+}
+
+form {
+	width:1080px;
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:60px;
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#FormPage {
+    margin: 0 auto; 
+}
+
+
+div.form-group > div > div > div {
+	height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	border: 1px solid #eeeeee;
+}
+
+.form-group:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: white;
+    opacity: 1;
+}
+
+.FormStyle {
+    margin: 5px 20px 5px 20px;
+}
+
+h1 {
+	font-size:30px;	
+	color:#000000;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	border-bottom:1px solid #ccc;
+	font-size:18px;	
+}
+
+h4 {
+	font-size:16px;
+}
+
+
+
+p {
+	font-size:14px;
+	line-height:20px;
+}
+
+
+#DynamicFormPanel table td {
+	padding-bottom:2px;
+/*    vertical-align:baseline;*/
+}
+
+table #FormPage {
+    border: 1px solid lightgray;
+    border-radius: 15px 25px 10px; 
+    box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
+    background-color: #ffffff;
+}
+/*Added 2/24*/
+
+.striped-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+} 
+/*Added 2/24*/
+
+#DynamicFormPanel body, 
+#DynamicFormPanel td, 
+#DynamicFormPanel input, 
+#DynamicFormPanel textarea {
+    font-size: 14px;
+	font-family: 'Roboto Slab', sans-serif !important;
+}
+
+
+#DynamicFormPanel a:hover {
+	text-decoration: none;
+}
+
+#formnavbuttons input {
+	font-size:14px;
+	font-family: 'Roboto Slab', sans-serif !important;
+	color: white;
+	background-color: #2ba1dd;
+	width:140px !important;
+	border: none;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#formnavbuttons input:hover {
+	cursor: pointer;
+}
+
+#SaveAsDraftButton {
+    color: #ffffff;
+    background-color: #494440;
+}
+/*2/24 Saved Progress Button*/
+
+button[type="submit"] {
+    color: #ffffff;
+    background-color: #003976;
+}
+/*2/24 Submit Button */
+
+select:disabled,
+textarea:disabled,
+input:disabled {
+	font-weight:bold;
+}
+
+.inputcontainer {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.tooltip {
+	position: absolute;
+	top: calc(100% + 0.649rem);
+	z-index: 1200;
+	max-width: 10rem;
+	height: 18px;
+	padding: 0.75rem;
+	border-radius: 0;
+	background-color: #003976;
+	font-size: 80%;
+	color: #fefefe; }
+
+/* 
+Custom CSS classes fields. Added from Designer. Advanced field settings.
+Do not remove Dot "." 
+Only css classes. No ID css 
+*/
+.AnyName1 {
+  font-family: 'Roboto Slab', sans-serif !important;
+  font-size:20px;
+}
+.AnyName2 {
+  color:#981b1e;
+}
