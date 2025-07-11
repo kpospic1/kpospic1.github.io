@@ -30,10 +30,10 @@ body {
     /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
     font-family: serif;
 	width:100%;	
-	background-color:#C0C2C5;
+	background-color:#daf0f7;
 	/*margin:0 auto;*/
 	/*background-attachment: fixed;*/
-    font-variant-ligatures: no-common-ligatures;
+    	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
 	background-size:cover;
 }
