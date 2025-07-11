@@ -212,9 +212,7 @@ Only css classes. No ID css
 
 input.HiddenInputBox {
 	background-color: #ffffff;
-	border-color: #ffffff;
-	border-style: solid;
-	border: 1x solid #ffffff;
+	border: none;
   	outline: none;
   	box-shadow: none;
   	padding: 2px;
@@ -223,7 +221,6 @@ input.HiddenInputBox {
 
 input.InputBoxUnderlined {
 	background-color: #ffffff;
-	border-color: #ffffff;
 	border: none;
 	border-bottom: 1px solid;
   	outline: none;
