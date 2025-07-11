@@ -210,6 +210,17 @@ Only css classes. No ID css
   color:#981b1e;
 }
 
+
+@media print {
+
+body {	
+	background-color:#ffffff;
+}
+	
+form {
+	border: none;
+     }
+
 input.HiddenInputBox {
 	background-color: #ffffff;
 	border: none;
@@ -227,15 +238,6 @@ input.InputBoxUnderlined {
   	box-shadow: none;
   	padding: 2px;
 }
-
-@media print {
-
-body {	
-	background-color:#ffffff;
-}
 	
-form {
-	border: none;
-     }
 
 }
