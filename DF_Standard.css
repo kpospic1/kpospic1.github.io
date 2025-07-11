@@ -42,7 +42,7 @@ body {
 	    url(https://www-s3-live.kent.edu/s3fs-root/s3fs-public/styles/video_background/public/2021-08-30%202112%20IMG_5520.JPG?VersionId=CYy9LZkfW.gskfh5DG5THB2Tdz.2CcYm&itok=pDk3wUJA);*/
   background: url(https://www-s3-live.kent.edu/s3fs-root/s3fs-public/styles/video_background/public/2021-08-30%202112%20IMG_5520.JPG?VersionId=CYy9LZkfW.gskfh5DG5THB2Tdz.2CcYm&itok=pDk3wUJA) rgba(0, 38, 100, 0.8);
   background-size: cover;
-  background-blend-mode: multiply;
+  background-blend-mode: normal;
 }
 
 body #formBody {
