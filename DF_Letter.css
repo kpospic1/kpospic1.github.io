@@ -30,11 +30,12 @@ body {
     /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
     font-family: serif;
 	width:100%;	
-	background-color: #002664;
+	/*background-color: #002664;*/
 	/*margin:0 auto;*/
 	/*background-attachment: fixed;*/
     	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
+	background: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
 
