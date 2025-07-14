@@ -186,10 +186,16 @@ input:disabled {
 }
 select:disabled {
 	box-shadow: none;
-	font-weight:bold;
-	background-color: dimgrey;
-  	/*color: linen;*/
-  	opacity: 1;
+	border; none;
+	/*font-weight:bold;*/
+	background: repeating-linear-gradient(
+  		45deg,
+  		#606dbc,
+ 		#606dbc 10px,
+  		#465298 10px,
+  		#465298 20px
+);
+  	
 }
 
 .inputcontainer {
