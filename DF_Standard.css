@@ -195,6 +195,9 @@ input:disabled {
    font-family: Arial, Helvetica, sans-serif;
    /*box-shadow: none;*/
 }
+.inputcontainer:disabled {
+	box-shadow: none;
+}
 
 .tooltip {
 	position: absolute;
