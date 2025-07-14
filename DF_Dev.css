@@ -35,7 +35,7 @@ body {
 	/*background-attachment: fixed;*/
     	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
-	background: url(https://kpospic1.github.io/KSUPlaza.png);
+	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
 
@@ -187,13 +187,14 @@ input:disabled {
 select:disabled {
 	box-shadow: none;
 	border: none;
+	border-radius: 3px;
 	/*font-weight:bold;*/
 	background: repeating-linear-gradient(
   		45deg,
   		#ffffff,
  		#ffffff 10px,
-  		#ccc 10px,
-  		#ccc 20px
+  		#ebebeb 10px,
+  		#ebebeb 20px
 );
   	
 }
@@ -232,6 +233,7 @@ Only css classes. No ID css
 
 body {	
 	background-color:#ffffff;
+	background-image: none;
 }
 	
 form {
