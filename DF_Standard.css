@@ -190,12 +190,13 @@ input:disabled {
   	color: linen;
   	opacity: 1;
 }
+/*
 select {
 	font-family: Arial, Helvetica, sans-serif;
   	box-shadow: none;
    	border: 1px solid black;
 }
-
+*/
 select:disabled {
 	font-weight:bold;
 	/*background-color: dimgrey;*/
