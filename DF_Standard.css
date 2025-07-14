@@ -181,7 +181,7 @@ button[type="submit"] {
 }
 /*2/24 Submit Button */
 
-/*select:disabled*/
+select:disabled
 textarea:disabled,
 input:disabled {
 	font-weight:bold;
@@ -190,30 +190,11 @@ input:disabled {
   	/*color: linen;*/
   	opacity: 1;
 }
-/*
-select {
-	font-family: Arial, Helvetica, sans-serif;
-  	box-shadow: none;
-   	border: 1px solid black;
-}
-*/
-select:disabled {
-	font-weight:bold;
-	/*background-color: dimgrey;*/
-	background-color: red;
-  	opacity: 1;
-}
+
 .inputcontainer {
    	font-family: Arial, Helvetica, sans-serif;
   	box-shadow: none;
    	border: 1px solid black;
-}
-.inputcontainer:disabled {
-   	font-family: Arial, Helvetica, sans-serif;
-  	box-shadow: none;
-   	border: 1px solid black;
-	background-color: dimgrey;
-}
 
 .tooltip {
 	position: absolute;
