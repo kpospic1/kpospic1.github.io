@@ -192,23 +192,13 @@ select {
    	border: 1px solid black;
 }
 */
-select:disabled {
-	font-weight:bold;
-	/*background-color: dimgrey;*/
-	background-color: red;
-  	opacity: 1;
-}
+
 .inputcontainer {
    	font-family: Arial, Helvetica, sans-serif;
   	box-shadow: none;
    	border: 1px solid black;
 }
-.inputcontainer:disabled {
-   	font-family: Arial, Helvetica, sans-serif;
-  	box-shadow: none;
-   	border: 1px solid black;
-	background-color: dimgrey;
-}
+
 
 .tooltip {
 	position: absolute;
