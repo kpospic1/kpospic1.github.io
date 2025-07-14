@@ -229,7 +229,6 @@ Only css classes. No ID css
 @media print {
 
 body {	
-	background: none;
 	background-color:#ffffff;
 }
 	
