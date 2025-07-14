@@ -186,6 +186,10 @@ input:disabled {
 }
 select:disabled {
 	box-shadow: none;
+	font-weight:bold;
+	background-color: dimgrey;
+  	/*color: linen;*/
+  	opacity: 1;
 }
 
 .inputcontainer {
