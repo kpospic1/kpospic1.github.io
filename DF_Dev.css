@@ -185,7 +185,7 @@ input:disabled {
   	opacity: 1;
 }
 select:disabled {
-	
+	box-shadow: none;
 }
 
 .inputcontainer {
