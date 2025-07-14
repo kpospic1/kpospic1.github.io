@@ -28,20 +28,15 @@ https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
 
 body {
     /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
-    font-family: serif;
-	  width:100%;	
-	  background-color: #002664;
+    	font-family: serif;
+	width:100%;	
+	background-color: #002664;
   	/*margin:0 auto;*/
-	  /*background-attachment: fixed;*/
-    font-variant-ligatures: no-common-ligatures;
-	  font-size:13px;
-	  /*background-size:cover;*/
-	
-   /* background-image: 
-	    linear-gradient(#002664 0.3),
-	    url(https://www-s3-live.kent.edu/s3fs-root/s3fs-public/styles/video_background/public/2021-08-30%202112%20IMG_5520.JPG?VersionId=CYy9LZkfW.gskfh5DG5THB2Tdz.2CcYm&itok=pDk3wUJA);*/
-  background: url(https://kpospic1.github.io/KSUPlaza.png);
-  background-size: cover;
+	/*background-attachment: fixed;*/
+    	font-variant-ligatures: no-common-ligatures;
+	font-size: 13px; 
+  	background: url(https://kpospic1.github.io/KSUPlaza.png);
+  	background-size: cover;
 }
 
 body #formBody {
