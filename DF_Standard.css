@@ -185,13 +185,15 @@ select:disabled,
 textarea:disabled,
 input:disabled {
 	font-weight:bold;
-	background-color: dimgrey;
+	/*background-color: dimgrey;*/
+	background-color: red;
   	color: linen;
   	opacity: 1;
 }
 
 .inputcontainer {
    font-family: Arial, Helvetica, sans-serif;
+   box-shadow: none;
 }
 
 .tooltip {
