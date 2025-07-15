@@ -204,10 +204,11 @@ input:not(:disabled) {
 
 }
 
-
+/*
 .inputcontainer {
    font-family: Arial, Helvetica, sans-serif;
 }
+*/
 
 .tooltip {
 	position: absolute;
