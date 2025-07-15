@@ -176,12 +176,12 @@ button[type="submit"] {
     background-color: #003976;
 }
 /*2/24 Submit Button */
-select:enabed,
-textarea:enabled,
-input:enabled {
+select:not(:disabled),
+textarea::not(:disabled),
+input::not(:disabled) {
 	box-shadow: none;
 	border-bottom: 1px solid #eeeeee;
-	background-color: #fffacd;
+	background: #fffacd;
 
 }
 
