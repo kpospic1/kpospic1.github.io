@@ -140,7 +140,7 @@ table #FormPage {
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    font-size: 14px;
+    	font-size: 14px;
 	font-family: 'Roboto Slab', sans-serif !important;
 }
 
@@ -176,16 +176,18 @@ button[type="submit"] {
     background-color: #003976;
 }
 /*2/24 Submit Button */
+select:enabed,
+textarea:enabled,
+input:enabled {
+	box-shadow: none;
+	border-bottom: 1px solid #eeeeee;
+	background-color: #fffacd;
 
-/*select:disabled,*/
+}
+
+select:disabled,
 textarea:disabled,
 input:disabled {
-	font-weight:bold;
-	background-color: dimgrey;
-  	/*color: linen;*/
-  	opacity: 1;
-}
-select:disabled {
 	box-shadow: none;
 	border: 1px solid #eeeeee;
 	border-radius: 3px;
@@ -196,8 +198,13 @@ select:disabled {
  		#ffffff 10px,
   		#ebebeb 10px,
   		#ebebeb 20px
-);
-  	
+	);
+	
+	
+	/*font-weight:bold;
+	background-color: dimgrey;
+  	color: linen;
+  	opacity: 1;*/
 }
 
 .inputcontainer {
