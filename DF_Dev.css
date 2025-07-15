@@ -177,7 +177,7 @@ table #FormPage {
 	
 }
 
-#FormPage input:read-only, #FormPage textarea:read-only {
+#FormPage input[type="text']:read-only, #FormPage textarea:read-only {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
