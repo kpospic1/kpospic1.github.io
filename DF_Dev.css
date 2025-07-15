@@ -33,6 +33,17 @@ body {
 body #formBody {
  
 }
+#formBody {
+	font-family: serif;
+	width:100%;	
+	/*background-color: #002664;*/
+	margin:0 auto;
+	/*background-attachment: fixed;*/
+    	font-variant-ligatures: no-common-ligatures;
+	font-size:13px;
+	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
+	background-size:cover;
+}
 
 /*Horizontal line 2/28*/
 hr {
@@ -59,16 +70,7 @@ form {
 
 #FormPage {
     	margin: 0 auto;
-	/*background-color: #e4e2e0;*/
-	font-family: serif;
-	width:100%;	
-	/*background-color: #002664;*/
-	margin:0 auto;
-	/*background-attachment: fixed;*/
-    	font-variant-ligatures: no-common-ligatures;
-	font-size:13px;
-	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
-	background-size:cover;
+	
 }
 
 
