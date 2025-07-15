@@ -269,10 +269,12 @@ Only css classes. No ID css
 
 
 @media print {
-
-body {	
+#formBody {
 	background-color:#ffffff;
 	background-image: none;
+}
+body {	
+	
 }
 	
 form {
