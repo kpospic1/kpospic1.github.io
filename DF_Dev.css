@@ -102,15 +102,6 @@ div.form-group > div > div > div {
 	);
 }
 
-.form-control[enabled], fieldset[enabled] .form-control {
-    	/*background-color: white;
-    	opacity: 1;*/
-
-	box-shadow: none;
-	border-bottom: 1px solid #eeeeee;
-	background-color: #fffacd;
-}
-
 .FormStyle {
     margin: 5px 20px 5px 20px;
 }
@@ -197,7 +188,7 @@ button[type="submit"] {
     background-color: #003976;
 }
 /*2/24 Submit Button */
-/*
+
 select:not(:disabled),
 textarea:not(:disabled),
 input:not(:disabled) {
@@ -206,7 +197,6 @@ input:not(:disabled) {
 	background: #fffacd;
 
 }
-*/
 
 /*
 select:disabled,
