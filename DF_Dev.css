@@ -85,7 +85,7 @@ div.form-group > div > div > div {
 	background-color: #eeeeee;
 }
 
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+.form-control[disabled], .form-control[readonly], fieldset[disabled], .form-control[aria-disabled], fieldset[aria-disabled] .form-control {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
