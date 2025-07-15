@@ -264,6 +264,15 @@ Only css classes. No ID css
     background-color: #eeeeee;
 } 
 
+input.HideInputBox {
+	background-color: #ffffff;
+	border: none;
+  	outline: none;
+  	box-shadow: none;
+  	/*padding: 2px;*/
+	
+}
+
 @media print {
 #formBody {
 	background-color:#ffffff;
