@@ -280,7 +280,18 @@ body {
 form {
 	border: none;
 }
-
+.form-control, fieldset {
+	
+	box-shadow: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	/*highight field color*/
+	background: #ffffff;
+	resize:none;
+}
+/*	
 select:not(:disabled),
 textarea:not(:disabled),
 input:not(:disabled) {
@@ -293,7 +304,7 @@ input:not(:disabled) {
 	resize:none;
 
 }
-
+*/
 input.HiddenInputBox {
 	background-color: #ffffff;
 	border: none;
