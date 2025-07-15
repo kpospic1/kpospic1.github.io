@@ -102,7 +102,7 @@ div.form-group > div > div > div {
 	);
 }
 
-.form-control[not(disabled)], .form-control[not(readonly)], fieldset[not(disabled)] .form-control {
+.form-control[enabled], fieldset[enabled] .form-control {
     	/*background-color: white;
     	opacity: 1;*/
 
