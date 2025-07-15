@@ -84,15 +84,14 @@ div.form-group > div > div > div {
 .form-group:nth-child(odd) {
 	background-color: #eeeeee;
 }
-/*
+
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    	background-color: white;
-    	opacity: 1;
-	
 	box-shadow: none;
 	border: 1px solid #eeeeee;
+	border-style:none;
+	border-bottom: 1px solid #000000;
 	border-radius: 3px;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	background: repeating-linear-gradient(
   		45deg,
   		#ffffff,
@@ -102,7 +101,7 @@ div.form-group > div > div > div {
 	);
 	
 }
-*/
+
 
 .FormStyle {
     margin: 5px 20px 5px 20px;
@@ -204,24 +203,9 @@ input:not(:disabled) {
 
 }
 
+textarea:disabled {
+	resize: none;
 
-select:disabled,
-textarea:disabled,
-input:disabled {
-	resize:none;
-	box-shadow: none;
-	border: 1px solid #eeeeee;
-	border-style:none;
-	border-bottom: 1px solid #000000;
-	border-radius: 3px;
-	/*font-weight:bold;*/
-	background: repeating-linear-gradient(
-  		45deg,
-  		#ffffff,
- 		#ffffff 10px,
-  		#ebebeb 10px,
-  		#ebebeb 20px
-	);
 }
 
 
