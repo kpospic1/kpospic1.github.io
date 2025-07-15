@@ -182,20 +182,21 @@ select:not(:disabled),
 textarea:not(:disabled),
 input:not(:disabled) {
 	box-shadow: none;
-	/*border: 1px solid #eeeeee;
-	border-radius: 3px;*/
+	border: 1px solid #ffffff;
+	border-radius: 3px;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	background: #fffacd;
 	resize:none;
 
 }
-
-textarea:aria-disabled {
+select:aria-disabled, 
+textarea:aria-disabled,
+input:aria-disabled {
 	resize: none;
 	box-shadow: none;
-	/*border: 1px solid #eeeeee;
-	border-radius: 3px;*/
+	border: 1px solid #ffffff;
+	border-radius: 3px;
 	border-style:none;
 	border-bottom: 1px solid #000000;
 	/*font-weight:bold;*/
