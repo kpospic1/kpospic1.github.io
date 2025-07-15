@@ -1,4 +1,4 @@
-c@charset "utf-8";
+@charset "utf-8";
 
 /* 
 Default. Do not change names, only what is inside 
@@ -28,20 +28,15 @@ https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
 
 body {
     /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
-    font-family: serif;
-	  width:100%;	
-	  background-color: #002664;
-  	/*margin:0 auto;*/
-	  /*background-attachment: fixed;*/
-    font-variant-ligatures: no-common-ligatures;
-	  font-size:13px;
-	  /*background-size:cover;*/
-	
-   /* background-image: 
-	    linear-gradient(#002664 0.3),
-	    url(https://www-s3-live.kent.edu/s3fs-root/s3fs-public/styles/video_background/public/2021-08-30%202112%20IMG_5520.JPG?VersionId=CYy9LZkfW.gskfh5DG5THB2Tdz.2CcYm&itok=pDk3wUJA);*/
-  background: url(https://kpospic1.github.io/KSUPlaza.png);
-  background-size: cover;
+    	font-family: serif;
+	width:100%;	
+	/*background-color: #002664;*/
+	/*margin:0 auto;*/
+	/*background-attachment: fixed;*/
+    	font-variant-ligatures: no-common-ligatures;
+	font-size:13px;
+	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
+	background-size:cover;
 }
 
 body #formBody {
@@ -59,6 +54,7 @@ form {
 	background-color:#fff;
 	margin:0 auto;
 	margin-top:60px;
+	margin-bottom: 60px;
 	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
 	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
@@ -181,20 +177,32 @@ button[type="submit"] {
 }
 /*2/24 Submit Button */
 
-select:disabled
+/*select:disabled,*/
 textarea:disabled,
 input:disabled {
 	font-weight:bold;
 	background-color: dimgrey;
-	/*background-color: red;*/
   	/*color: linen;*/
   	opacity: 1;
 }
+select:disabled {
+	box-shadow: none;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	/*font-weight:bold;*/
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+ 		#ffffff 10px,
+  		#ebebeb 10px,
+  		#ebebeb 20px
+);
+  	
+}
 
 .inputcontainer {
-   	font-family: Arial, Helvetica, sans-serif;
-  	box-shadow: none;
-   	border: 1px solid black;
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 .tooltip {
 	position: absolute;
@@ -225,8 +233,8 @@ Only css classes. No ID css
 @media print {
 
 body {	
-	background: none;
 	background-color:#ffffff;
+	background-image: none;
 }
 	
 form {
