@@ -84,24 +84,12 @@ div.form-group > div > div > div {
 .form-group:nth-child(odd) {
 	background-color: #eeeeee;
 }
-
+/*
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-	box-shadow: none;
-	/*border: 1px solid #eeeeee;*/
-	border-style:none;
-	border-bottom: 1px solid #000000;
-	border-radius: 3px;
-	/*font-weight:bold;*/
-	background: repeating-linear-gradient(
-  		45deg,
-  		#ffffff,
- 		#ffffff 10px,
-  		#ebebeb 10px,
-  		#ebebeb 20px
-	);
+
 	
 }
-
+*/
 
 .FormStyle {
     margin: 5px 20px 5px 20px;
@@ -194,8 +182,8 @@ select:not(:disabled),
 textarea:not(:disabled),
 input:not(:disabled) {
 	box-shadow: none;
-	border: 1px solid #eeeeee;
-	border-radius: 3px;
+	/*border: 1px solid #eeeeee;
+	border-radius: 3px;*/
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	background: #fffacd;
@@ -203,8 +191,21 @@ input:not(:disabled) {
 
 }
 
-textarea:disabled {
+textarea:aria-disabled {
 	resize: none;
+	box-shadow: none;
+	/*border: 1px solid #eeeeee;
+	border-radius: 3px;*/
+	border-style:none;
+	border-bottom: 1px solid #000000;
+	/*font-weight:bold;*/
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+ 		#ffffff 10px,
+  		#ebebeb 10px,
+  		#ebebeb 20px
+	);
 
 }
 
