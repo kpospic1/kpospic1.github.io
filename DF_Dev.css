@@ -60,12 +60,6 @@ form {
 	-moz-border-radius: 10px;*/
 }
 
-#FormPage {
-    	margin: 0 auto;
-	
-}
-
-
 div.form-group > div > div > div {
 	height: 30px;
     letter-spacing: 1.5px;
@@ -176,6 +170,11 @@ table #FormPage {
 
 #DynamicFormPanel a:hover {
 	text-decoration: none;
+}
+
+#FormPage {
+    	margin: 0 auto;
+	
 }
 
 #FormPage input[type="text"]:read-only {
