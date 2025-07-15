@@ -31,7 +31,7 @@ body {
     	font-family: serif;
 	width:100%;	
 	/*background-color: #002664;*/
-	/*margin:0 auto;*/
+	margin:0 auto;
 	/*background-attachment: fixed;*/
     	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
@@ -45,7 +45,7 @@ body #formBody {
 
 /*Horizontal line 2/28*/
 hr {
-  border-top: 4px solid #000990;
+  border-top: 2px solid #000990;
   width: 100%;
 }
 
@@ -54,7 +54,7 @@ form {
 	background-color:#fff;
 	margin:0 auto;
 	margin-top:60px;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
 	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
