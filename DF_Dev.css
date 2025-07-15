@@ -148,12 +148,14 @@ p {
 /*    vertical-align:baseline;*/
 }
 
+/*
 table #FormPage {
     border: 1px solid lightgray;
     border-radius: 15px 25px 10px; 
-    /*box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);*/
+    /*box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
     background-color: #ffffff;
 }
+*/
 /*Added 2/24*/
 
 .striped-table tr:nth-child(odd) {
