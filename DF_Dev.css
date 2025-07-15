@@ -27,8 +27,12 @@ https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
 */
 
 body {
-    /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
-    	font-family: serif;
+    
+}
+
+body #formBody {
+    /*background-color: #e4e2e0;*/
+	font-family: serif;
 	width:100%;	
 	/*background-color: #002664;*/
 	margin:0 auto;
@@ -37,10 +41,6 @@ body {
 	font-size:13px;
 	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
-}
-
-body #formBody {
-    /*background-color: #e4e2e0;*/
 }
 
 /*Horizontal line 2/28*/
