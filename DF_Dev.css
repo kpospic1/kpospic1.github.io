@@ -36,25 +36,21 @@ body #formBody {
 #formBody {
 	font-family: serif;
 	width:100%;	
-	/*background-color: #002664;*/
 	margin:0 auto;
-	/*background-attachment: fixed;*/
     	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
 	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
 
-/*Horizontal line 2/28*/
-hr {
-  border-top: 2px solid #000990;
-  width: 100%;
-}
-
 form {
 	width:1080px;
+	margin:auto auto;
 	background-color:#ffffff;
-	margin:0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+
 	/*margin-top:60px;
 	/*margin-bottom: 60px;*/
 	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
@@ -62,10 +58,6 @@ form {
 	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;*/
-	border-radius: 1px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
 }
 
 #FormPage {
@@ -113,6 +105,7 @@ div.form-group > div > div > div {
 	border-radius: 3px;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
+	/*highight field color*/
 	background: #fffacd;
 	resize:none;
 }
@@ -120,6 +113,12 @@ div.form-group > div > div > div {
 
 .FormStyle {
     margin: 5px 20px 5px 20px;
+}
+
+/*Horizontal line 2/28*/
+hr {
+  border-top: 2px solid #000990;
+  width: 100%;
 }
 
 h1 {
@@ -177,6 +176,23 @@ table #FormPage {
 
 #DynamicFormPanel a:hover {
 	text-decoration: none;
+}
+
+#FormPage input[type="text"]:read-only {
+	resize: none;
+	box-shadow: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	border-style:none;
+	border-bottom: 1px solid #000000;
+	/*font-weight:bold;*/
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+ 		#ffffff 10px,
+  		#ebebeb 10px,
+  		#ebebeb 20px
+	);
 }
 
 #formnavbuttons input {
