@@ -78,7 +78,6 @@ div.form-group > div > div > div {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
-	border-radius: 3px;
 	border-style:none;
 	border-bottom: 1px solid #000000;
 	/*font-weight:bold;*/
@@ -96,7 +95,6 @@ div.form-group > div > div > div {
 	
 	box-shadow: none;
 	border: 1px solid #ffffff;
-	border-radius: 3px;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
@@ -181,7 +179,6 @@ table #FormPage {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
-	border-radius: 3px;
 	border-style:none;
 	border-bottom: 1px solid #000000;
 	/*font-weight:bold;*/
@@ -284,7 +281,6 @@ form {
 	
 	box-shadow: none;
 	border: 1px solid #ffffff;
-	border-radius: 3px;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
