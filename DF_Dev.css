@@ -85,7 +85,7 @@ div.form-group > div > div > div {
 	background-color: #eeeeee;
 }
 
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+.form-control[disabled], .form-control[readonly], fieldset[disabled] {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
@@ -101,6 +101,18 @@ div.form-group > div > div > div {
   		#ebebeb 20px
 	);
 	
+}
+
+.form-control, fieldset {
+	font-size: 14px;
+	font-family: 'Roboto Slab', sans-serif !important;
+	box-shadow: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	background: #fffacd;
+	resize:none;
 }
 
 
@@ -150,26 +162,13 @@ table #FormPage {
 } 
 /*Added 2/24*/
 
-#DynamicFormPanel body, 
-#DynamicFormPanel td {
+#DynamicFormPanel body,
+#DynamicFormPanel td,
+#DynamicFormPanel input,
+#DynamicFormPanel textarea {
     	font-size: 14px;
 	font-family: 'Roboto Slab', sans-serif !important;
 }
-
-#DynamicFormPanel input, 
-#DynamicFormPanel textarea,
-#DynamicFormPanel select {
-    	font-size: 14px;
-	font-family: 'Roboto Slab', sans-serif !important;
-	box-shadow: none;
-	border: 1px solid #ffffff;
-	border-radius: 3px;
-	border-stylet:none; 
-	border-bottom: 1px solid #000000;
-	background: #fffacd;
-	resize:none;
-}
-
 
 
 #DynamicFormPanel a:hover {
