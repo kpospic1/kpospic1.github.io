@@ -86,8 +86,12 @@ div.form-group > div > div > div {
 }
 
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: white;
-    opacity: 1;
+    	/*background-color: white;
+    	opacity: 1;*/
+
+	box-shadow: none;
+	border-bottom: 1px solid #eeeeee;
+	background-color: #fffacd;
 }
 
 .FormStyle {
