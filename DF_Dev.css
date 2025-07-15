@@ -88,6 +88,23 @@ div.form-group > div > div > div {
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     	/*background-color: white;
     	opacity: 1;*/
+	
+	box-shadow: none;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	/*font-weight:bold;*/
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+ 		#ffffff 10px,
+  		#ebebeb 10px,
+  		#ebebeb 20px
+	);
+}
+
+.form-control[not(disabled)], .form-control[not(readonly)], fieldset[not(disabled)] .form-control {
+    	/*background-color: white;
+    	opacity: 1;*/
 
 	box-shadow: none;
 	border-bottom: 1px solid #eeeeee;
