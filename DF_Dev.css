@@ -244,7 +244,20 @@ body {
 	
 form {
 	border: none;
-     }
+}
+
+select,
+textarea,
+input {
+	box-shadow: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	background: #ffffff;
+	resize:none;
+
+}
 
 input.HiddenInputBox {
 	background-color: #ffffff;
