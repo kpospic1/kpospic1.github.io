@@ -104,8 +104,7 @@ div.form-group > div > div > div {
 }
 
 .form-control, fieldset {
-	font-size: 14px;
-	font-family: 'Roboto Slab', sans-serif !important;
+	
 	box-shadow: none;
 	border: 1px solid #ffffff;
 	border-radius: 3px;
