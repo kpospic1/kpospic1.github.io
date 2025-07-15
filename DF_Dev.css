@@ -150,11 +150,7 @@ table #FormPage {
     background-color: #ffffff;
 }
 */
-/*Added 2/24*/
 
-.striped-table tr:nth-child(odd) {
-    background-color: #eeeeee;
-} 
 /*Added 2/24*/
 
 #DynamicFormPanel body,
@@ -264,6 +260,9 @@ Only css classes. No ID css
   color:#981b1e;
 }
 
+.striped-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+} 
 
 @media print {
 #formBody {
