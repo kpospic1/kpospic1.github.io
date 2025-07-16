@@ -131,15 +131,6 @@ p {
 /*    vertical-align:baseline;*/
 }
 
-/*
-table #FormPage {
-    border: 1px solid lightgray;
-    border-radius: 15px 25px 10px; 
-    /*box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
-    background-color: #ffffff;
-}
-*/
-
 /*Added 2/24*/
 
 #DynamicFormPanel body,
@@ -191,20 +182,6 @@ button[type="submit"] {
 }
 /*2/24 Submit Button */
 
-/*
-select:not(:disabled),
-textarea:not(:disabled),
-input:not(:disabled) {
-	box-shadow: none;
-	border: 1px solid #ffffff;
-	border-radius: 3px;
-	border-stylet:none; 
-	border-bottom: 1px solid #000000;
-	background: #fffacd;
-	resize:none;
-
-}
-*/
 /*
 .inputcontainer {
    font-family: Arial, Helvetica, sans-serif;
