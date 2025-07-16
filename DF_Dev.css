@@ -74,13 +74,15 @@ div.form-group > div > div > div {
 	background-color: #eeeeee;
 }
 
-.form-control[disabled], .form-control[readonly], fieldset[disabled] {
+/*Affect disabled elements */
+.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
 	resize: none;
 	box-shadow: none;
 	border: 1px solid #ffffff;
 	border-style:none;
 	border-bottom: 1px solid #000000;
-	/*font-weight:bold;*/
+	background: #ebebeb;
+	/*font-weight:bold;
 	background: repeating-linear-gradient(
   		45deg,
   		#ffffff,
@@ -88,9 +90,10 @@ div.form-group > div > div > div {
   		#ebebeb 10px,
   		#ebebeb 20px
 	);
-	
+	*/
 }
 
+/*Make acive form elements highlighted*/
 .form-control, fieldset {
 	
 	box-shadow: none;
@@ -181,22 +184,6 @@ table #FormPage {
 #FormPage {
     	margin: 0 auto;
 	
-}
-
-#FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
-	resize: none;
-	box-shadow: none;
-	border: 1px solid #ffffff;
-	border-style:none;
-	border-bottom: 1px solid #000000;
-	/*font-weight:bold;*/
-	background: repeating-linear-gradient(
-  		45deg,
-  		#ffffff,
- 		#ffffff 10px,
-  		#ebebeb 10px,
-  		#ebebeb 20px
-	);
 }
 
 #formnavbuttons input {
