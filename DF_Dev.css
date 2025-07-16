@@ -49,8 +49,7 @@ div.form-group > div > div > div {
 }
 
 /*Affect disabled elements #FormPage input[type="text"]:read-only, #FormPage textarea:read-only*/
-.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
-	resize: none;
+.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only {
 	box-shadow: none;
 	border: none;
 	border-radius:0;
@@ -67,17 +66,28 @@ div.form-group > div > div > div {
 	);
 	*/
 }
-
+#FormPage textarea {
+	box-shadow: none; 
+	border: 1px solid #000000;
+	/*highight field color*/
+	background: #fffacd;
+	resize:none;
+}
+#FormPage textarea:read-only {
+	resize: none;
+	box-shadow: none;
+	border-radius:0;
+	border: 1px solid #000000;
+	background: #f0f0f0;
+}
 /*Make acive form elements highlighted*/
 .form-control, fieldset {
-	
 	box-shadow: none;
 	border: none;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
 	background: #fffacd;
-	resize:none;
 }
 
 #DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
@@ -245,11 +255,17 @@ form {
 	border: none;
 }
 .form-control, fieldset {
-	
 	box-shadow: none;
 	border: none;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
+	/*highight field color*/
+	background: #ffffff;
+	resize:none;
+}
+#FormPage textarea {
+	box-shadow: none; 
+	border: 1px solid #000000;
 	/*highight field color*/
 	background: #ffffff;
 	resize:none;
