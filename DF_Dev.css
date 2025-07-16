@@ -115,8 +115,10 @@ hr {
 
   	margin-left: auto;
   	margin-right: auto;
-	border-color: #003879;
-	border-width: 1px;
+	border:0;
+	background-color: #003879;
+	height: 2px;
+	width: 85%;
 	
 	
   	/*
@@ -315,14 +317,6 @@ select {
 	
 }
 
-hr {
-
-  	margin-left: auto;
-  	margin-right: auto;
-	border-color: #003879;
-	border-width: 1px;
-	
-}
 /*	
 select:not(:disabled),
 textarea:not(:disabled),
