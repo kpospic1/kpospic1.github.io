@@ -115,7 +115,8 @@ hr {
 
   	margin-left: auto;
   	margin-right: auto;
-  	border-top: 2px solid #003876;
+	border-color: #003879
+	
   	/*
 	border-width: 2px;
   	color: #003876;
