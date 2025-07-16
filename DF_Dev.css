@@ -69,7 +69,7 @@ div.form-group > div > div > div {
 }
 
 /*Make acive form elements highlighted*/
-.form-control, fieldset, input {
+.form-control, fieldset {
 	
 	box-shadow: none;
 	border: none;
@@ -80,6 +80,15 @@ div.form-group > div > div > div {
 	resize:none;
 }
 
+input {
+	box-shadow: none;
+	border: none;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	/*highight field color*/
+	background: #fffacd;
+	resize:none;
+}
 
 .FormStyle {
     margin: 5px 20px 5px 20px;
