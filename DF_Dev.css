@@ -16,18 +16,12 @@ body {
 	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
-
+/*
 body #formBody {
  
 }
-/*
 #formBody {
-	font-family: serif;
-	width:100%;	
-    	font-variant-ligatures: no-common-ligatures;
-	font-size:13px;
-	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
-	background-size:cover;
+	
 }
 */
 
@@ -54,8 +48,8 @@ div.form-group > div > div > div {
 	background-color: #eeeeee;
 }
 
-/*Affect disabled elements */
-.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
+/*Affect disabled elements #FormPage input[type="text"]:read-only, #FormPage textarea:read-only*/
+.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage .form-control[read-only] {
 	resize: none;
 	box-shadow: none;
 	border: none;
@@ -221,8 +215,7 @@ Only css classes. No ID css
 	border: 1px solid #000000;
 	padding: 5px;
 }
-
-.hideInputBox {
+.hideInputBox, .hideInputBox input[type="text"]:read-only, .hideInputBox textarea:read-only {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
