@@ -1,31 +1,11 @@
 @charset "utf-8";
 
 /* 
-Default. Do not change names, only what is inside 
-You can also add any other html tags, such as 
-p, div, h1, strong, etc.
-
-Also update the background-image:url with the URL for the logo uploaded to the dynamic forms server e.g. /DynamicFormsLogo_125px.png
-
-Ex:
-body {
-	font-family: sans-serif;
-	width:500px;	
-	background-color:#F8F8;
-	margin:0 auto;
-	font-size:20px;
-}
-
+KSU Dynamic Forms CSS File (Default)
 https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
 
 Colors
 KSU Logo Dark Blue: #003876
-
-@import url(https://fonts.googleapis.com/css?family=Barlow);
- 
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 */
 
 body {
