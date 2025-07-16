@@ -53,6 +53,7 @@ div.form-group > div > div > div {
 	resize: none;
 	box-shadow: none;
 	border: none;
+	border-radius:0;
 	border-style:none;
 	border-bottom: 1px solid #000000;
 	background: #f0f0f0;
@@ -215,7 +216,7 @@ Only css classes. No ID css
 	border: 1px solid #000000;
 	padding: 5px;
 }
-.hideInputBox, #FormPage .hideInputBox input[type="text"]:read-only, #FormPage .hideInputBox textarea:read-only {
+.hideInputBox, #FormPage.hideInputBox input[type="text"]:read-only, #FormPage.hideInputBox textarea:read-only {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
