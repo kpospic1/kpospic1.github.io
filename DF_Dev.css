@@ -78,10 +78,10 @@ div.form-group > div > div > div {
 .form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
 	resize: none;
 	box-shadow: none;
-	border: 1px solid #ffffff;
+	border: none;
 	border-style:none;
 	border-bottom: 1px solid #000000;
-	background: #ebebeb;
+	background: #f0f0f0;
 	/*font-weight:bold;
 	background: repeating-linear-gradient(
   		45deg,
@@ -97,7 +97,7 @@ div.form-group > div > div > div {
 .form-control, fieldset {
 	
 	box-shadow: none;
-	border: 1px solid #ffffff;
+	border: none;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
@@ -294,7 +294,7 @@ form {
 .form-control, fieldset {
 	
 	box-shadow: none;
-	border: 1px solid #ffffff;
+	border: none;
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
