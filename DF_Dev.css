@@ -314,6 +314,15 @@ select {
 	appearance: none;
 	
 }
+
+hr {
+
+  	margin-left: auto;
+  	margin-right: auto;
+	border-color: #003879;
+	border-width: 1px;
+	
+}
 /*	
 select:not(:disabled),
 textarea:not(:disabled),
