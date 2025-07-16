@@ -260,6 +260,11 @@ select {
 	appearance: none;
 	
 }
+
+#DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
+	/*highight field color*/
+	outline: none;
+}
 .hideInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
