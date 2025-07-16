@@ -216,7 +216,7 @@ Only css classes. No ID css
 	border: 1px solid #000000;
 	padding: 5px;
 }
-.hideInputBox, #FormPage.hideInputBox input[type="text"]:read-only, #FormPage.hideInputBox textarea:read-only {
+.hideInputBox.form-control {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
