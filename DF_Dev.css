@@ -80,14 +80,9 @@ div.form-group > div > div > div {
 	resize:none;
 }
 
-input {
-	box-shadow: none;
-	border: none;
-	border-stylet:none; 
-	border-bottom: 1px solid #000000;
+#DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
 	/*highight field color*/
-	background: #fffacd;
-	resize:none;
+	color: #fffacd;
 }
 
 .FormStyle {
