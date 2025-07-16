@@ -82,7 +82,12 @@ div.form-group > div > div > div {
 
 #DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
 	/*highight field color*/
-	color: #fffacd;
+	outline: 1px solid #fffacd;
+}
+
+#DynamicFormPanel input[type="checkbox"]:disabled, #DynamicFormPanel input[type="radio"]:disabled {
+	/*highight field color*/
+	outline: none;
 }
 
 .FormStyle {
