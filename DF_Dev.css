@@ -115,6 +115,8 @@ hr {
 
   	margin-left: auto;
   	margin-right: auto;
+	margin-top: 15px;
+	maring-bottom: 15px;
 	border:0;
 	background-color: #003879;
 	height: 2px;
@@ -271,7 +273,7 @@ Only css classes. No ID css
 
 .outlinedTable td {
 	border: 1px solid #000000;
-	padding: 2px;
+	padding: 5px;
 }
 
 .hideInputBox {
@@ -317,20 +319,6 @@ select {
 	
 }
 
-/*	
-select:not(:disabled),
-textarea:not(:disabled),
-input:not(:disabled) {
-	box-shadow: none;
-	border: 1px solid #ffffff;
-	border-radius: 3px;
-	border-stylet:none; 
-	border-bottom: 1px solid #000000;
-	background: #ffffff;
-	resize:none;
-
-}
-*/
 .HiddenInputBox {
 	background-color: #ffffff;
 	border: none;
