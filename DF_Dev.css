@@ -272,7 +272,7 @@ Only css classes. No ID css
 	padding: 2px;
 }
 
-.HideInputBox {
+.hideInputBox {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
