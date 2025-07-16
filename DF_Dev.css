@@ -29,12 +29,18 @@ KSU Logo Dark Blue: #003876
 */
 
 body {
-    
+    	font-family: serif;
+	width:100%;	
+    	font-variant-ligatures: no-common-ligatures;
+	font-size:13px;
+	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
+	background-size:cover;
 }
 
 body #formBody {
  
 }
+/*
 #formBody {
 	font-family: serif;
 	width:100%;	
@@ -43,6 +49,7 @@ body #formBody {
 	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
+*/
 
 form {
 	width:1080px;
