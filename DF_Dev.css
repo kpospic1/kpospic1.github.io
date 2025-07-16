@@ -170,6 +170,9 @@ table #FormPage {
 	font-family: 'Roboto Slab', sans-serif !important;
 }
 
+#DynamicFormPanel table {
+	border-collapse: collapse;
+}
 
 #DynamicFormPanel a:hover {
 	text-decoration: none;
@@ -272,6 +275,8 @@ Only css classes. No ID css
 .striped-table tr:nth-child(odd) {
     background-color: #eeeeee;
 } 
+
+
 
 .HideInputBox {
 	background-color: #ffffff;
