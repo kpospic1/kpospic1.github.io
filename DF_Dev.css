@@ -49,7 +49,7 @@ div.form-group > div > div > div {
 }
 
 /*Affect disabled elements #FormPage input[type="text"]:read-only, #FormPage textarea:read-only*/
-.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage .form-control[read-only] {
+.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only, #FormPage textarea:read-only {
 	resize: none;
 	box-shadow: none;
 	border: none;
@@ -215,7 +215,7 @@ Only css classes. No ID css
 	border: 1px solid #000000;
 	padding: 5px;
 }
-.hideInputBox, .hideInputBox input[type="text"]:read-only, .hideInputBox textarea:read-only {
+.hideInputBox, #FormPage .hideInputBox input[type="text"]:read-only, #FormPage .hideInputBox textarea:read-only {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
