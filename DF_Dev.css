@@ -231,18 +231,12 @@ Only css classes. No ID css
     background-color: #eeeeee;
 } 
 
-.outlinedTable td {
+.outlinedTable {
 	border: 1px solid #000000;
 	padding: 5px;
 }
 
-.horizontalLinesTable {
-	border:none;
-	border-top: 1px solid #000000;
-	border-left: 1px solid #000000;
-	border-right: 1px solid #000000;
-	
-}
+
 .horizontalLinesTable tr {
 	border:none;
 	border-bottom: 1px solid #000000;
