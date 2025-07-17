@@ -236,10 +236,17 @@ Only css classes. No ID css
 	padding: 5px;
 }
 
-.blueLineBreak hr {
-	border-style: solid;
-  	border-width: 1px;
-  	color: #2ba1dd;
+.horizontalLinesTable {
+	border:none;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	
+}
+.horizontalLinesTable td {
+	border:none;
+	border-bottom: 1px solid #000000;
+	
 }
 
 @media print {
@@ -260,7 +267,7 @@ form {
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
-	background: #ffffff;
+	background: rgba(0,0,0,0);
 	resize:none;
 }
 
