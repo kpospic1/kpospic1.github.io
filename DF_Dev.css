@@ -254,7 +254,7 @@ body {
 form {
 	border: none;
 }
-.form-control, fieldset {
+.form-control {
 	box-shadow: none;
 	border: none;
 	border-stylet:none; 
@@ -264,7 +264,7 @@ form {
 	resize:none;
 }
 
-.form-control textarea {
+#FormPage input[type="textarea"] {
 	box-shadow: none; 
 	border: 1px solid #000000;
 	/*highight field color*/
