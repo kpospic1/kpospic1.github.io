@@ -258,6 +258,12 @@ Only css classes. No ID css
 	background-color: #eeeeee;
 }
 
+.darkBlueHeaderTable tr:first-child{
+	background-color:#003879;
+	color:#ffffff;
+
+}
+
 @media print {
 #formBody {
 	background-color:#ffffff;
