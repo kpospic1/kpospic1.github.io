@@ -254,6 +254,10 @@ Only css classes. No ID css
   	border-bottom: 1px solid black;
 }
 
+.headerHighlightedTable tr:first-child {
+	background-color: #eeeeee;
+}
+
 @media print {
 #formBody {
 	background-color:#ffffff;
