@@ -232,22 +232,28 @@ Only css classes. No ID css
     background-color: #eeeeee;
 } 
 
-.outlinedTable td {
+.allCellsOutlinedTable td {
 	border: 1px solid #000000;
-	padding: 5px;
 }
 
-.horizontalLinesTable {
-	border:none;
-	border-top: 1px solid #000000;
-	border-left: 1px solid #000000;
-	border-right: 1px solid #000000;
-	
+.outsideBorderTable {
+	border: 1px solid #000000;
 }
+
 .horizontalLinesTable tr {
 	border:none;
 	border-bottom: 1px solid #000000;
 	
+}
+
+.grayHeaderTable tr:first-child {
+	background-color: #eeeeee;
+}
+
+.darkBlueHeaderTable tr:first-child{
+	background-color:#003879;
+	color:#ffffff;
+
 }
 
 @media print {
