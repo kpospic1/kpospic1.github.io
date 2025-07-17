@@ -230,6 +230,9 @@ Only css classes. No ID css
 .striped-table tr:nth-child(odd) {
     background-color: #eeeeee;
 } 
+.allCellsOutlinedTable tr {
+	border: 1px solid #000000;
+}
 
 .outsideBorderTable {
 	border: 1px solid #000000;
