@@ -249,6 +249,11 @@ Only css classes. No ID css
 	
 }
 
+.insideHorizontalLinesTable tr:not(:first-child) {
+	border:none;
+  	border-top: 1px solid black;
+}
+
 @media print {
 #formBody {
 	background-color:#ffffff;
