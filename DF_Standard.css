@@ -1,97 +1,119 @@
 @charset "utf-8";
 
 /* 
-Default. Do not change names, only what is inside 
-You can also add any other html tags, such as 
-p, div, h1, strong, etc.
-
-Also update the background-image:url with the URL for the logo uploaded to the dynamic forms server e.g. /DynamicFormsLogo_125px.png
-
-Ex:
-body {
-	font-family: sans-serif;
-	width:500px;	
-	background-color:#F8F8;
-	margin:0 auto;
-	font-size:20px;
-}
-
+KSU Dynamic Forms CSS File (Default)
 https://kent-hosted-assets.s3.amazonaws.com/dynamic-forms/styles.css
 
-
-@import url(https://fonts.googleapis.com/css?family=Barlow);
- 
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+Colors
+KSU Logo Dark Blue: #003876
 */
 
 body {
-    /*font-family: 'Roboto Slab', Georgia, "Times New Roman", Times, serif;*/
     	font-family: serif;
 	width:100%;	
-	/*background-color: #002664;*/
-	/*margin:0 auto;*/
-	/*background-attachment: fixed;*/
     	font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
 	background-image: url(https://kpospic1.github.io/KSUPlaza.png);
 	background-size:cover;
 }
-
+/*
 body #formBody {
-    /*background-color: #e4e2e0;*/
+ 
 }
-
-/*Horizontal line 2/28*/
-hr {
-  border-top: 4px solid #000990;
-  width: 100%;
+#formBody {
+	
 }
+*/
 
 form {
 	width:1080px;
-	background-color:#fff;
 	margin:0 auto;
-	margin-top:60px;
-	margin-bottom: 60px;
-	/*-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;*/
-	border-radius: 1px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
+	margin-top:40px;
+	margin-bottom:40px;
+	background-color:#ffffff;
+	
 }
-
-#FormPage {
-    margin: 0 auto; 
-}
-
 
 div.form-group > div > div > div {
 	height: 30px;
-    letter-spacing: 1.5px;
+    	letter-spacing: 1.5px;
 }
 
 .form-group {
 	margin-bottom: 15px;
-	border: 1px solid #eeeeee;
+	/*border: 1px solid #eeeeee;*/
 }
 
 .form-group:nth-child(odd) {
 	background-color: #eeeeee;
 }
 
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: white;
-    opacity: 1;
+/*Affect disabled elements #FormPage input[type="text"]:read-only, #FormPage textarea:read-only*/
+.form-control[disabled], .form-control[readonly], fieldset[disabled], #FormPage input[type="text"]:read-only {
+	box-shadow: none;
+	border: none;
+	border-radius:0;
+	border-style:none;
+	border-bottom: 1px solid #000000;
+	background: #f0f0f0;
+	/*font-weight:bold;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#ffffff,
+ 		#ffffff 10px,
+  		#ebebeb 10px,
+  		#ebebeb 20px
+	);
+	*/
+}
+#FormPage textarea {
+	box-shadow: none; 
+	border: 1px solid #000000;
+	/*highight field color*/
+	background: #fffacd;
+	resize:none;
+}
+#FormPage textarea:read-only {
+	resize: none;
+	box-shadow: none;
+	border-radius:0;
+	border: 1px solid #000000;
+	background: #f0f0f0;
+}
+/*Make acive form elements highlighted*/
+.form-control, fieldset {
+	box-shadow: none;
+	border: none;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	/*highight field color*/
+	background: #fffacd;
+}
+
+#DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
+	/*highight field color*/
+	outline: 2px solid #fffacd;
+}
+
+#DynamicFormPanel input[type="checkbox"]:disabled, #DynamicFormPanel input[type="radio"]:disabled {
+	/*highight field color*/
+	outline: none;
 }
 
 .FormStyle {
     margin: 5px 20px 5px 20px;
+}
+
+/*Horizontal line*/
+hr {
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 15px;
+	maring-bottom: 15px;
+	border:0;
+	background-color: #003879;
+	height: 3px;
+	width: 100%;
 }
 
 h1 {
@@ -123,37 +145,34 @@ p {
 /*    vertical-align:baseline;*/
 }
 
-table #FormPage {
-    border: 1px solid lightgray;
-    border-radius: 15px 25px 10px; 
-    /*box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);*/
-    background-color: #ffffff;
-}
 /*Added 2/24*/
 
-.striped-table tr:nth-child(odd) {
-    background-color: #eeeeee;
-} 
-/*Added 2/24*/
-
-#DynamicFormPanel body, 
-#DynamicFormPanel td, 
-#DynamicFormPanel input, 
+#DynamicFormPanel body,
+#DynamicFormPanel td,
+#DynamicFormPanel input,
 #DynamicFormPanel textarea {
-    font-size: 14px;
+    	font-size: 14px;
 	font-family: 'Roboto Slab', sans-serif !important;
 }
 
+#DynamicFormPanel table {
+	border-collapse: collapse;
+}
 
 #DynamicFormPanel a:hover {
 	text-decoration: none;
+}
+
+#FormPage {
+    	margin: 0 auto;
+	
 }
 
 #formnavbuttons input {
 	font-size:14px;
 	font-family: 'Roboto Slab', sans-serif !important;
 	color: white;
-	background-color: #2ba1dd;
+	background-color: #003879;
 	width:140px !important;
 	border: none;
 	padding: 5px;
@@ -177,32 +196,11 @@ button[type="submit"] {
 }
 /*2/24 Submit Button */
 
-/*select:disabled,*/
-textarea:disabled,
-input:disabled {
-	font-weight:bold;
-	background-color: dimgrey;
-  	/*color: linen;*/
-  	opacity: 1;
-}
-select:disabled {
-	box-shadow: none;
-	border: 1px solid #eeeeee;
-	border-radius: 3px;
-	/*font-weight:bold;*/
-	background: repeating-linear-gradient(
-  		45deg,
-  		#ffffff,
- 		#ffffff 10px,
-  		#ebebeb 10px,
-  		#ebebeb 20px
-);
-  	
-}
-
+/*
 .inputcontainer {
    font-family: Arial, Helvetica, sans-serif;
 }
+*/
 
 .tooltip {
 	position: absolute;
@@ -229,35 +227,67 @@ Only css classes. No ID css
   color:#981b1e;
 }
 
+.striped-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+} 
+
+.outlinedTable td {
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+.blueLineBreak hr {
+	border-style: solid;
+  	border-width: 1px;
+  	color: #2ba1dd;
+}
 
 @media print {
-
-body {	
+#formBody {
 	background-color:#ffffff;
 	background-image: none;
+}
+body {	
+	
 }
 	
 form {
 	border: none;
-     }
+}
+.form-control, fieldset {
+	box-shadow: none;
+	border: none;
+	border-stylet:none; 
+	border-bottom: 1px solid #000000;
+	/*highight field color*/
+	background: #ffffff;
+	resize:none;
+}
 
-input.HiddenInputBox {
+#FormPage textarea {
+	box-shadow: none; 
+	border: 1px solid #000000;
+	/*highight field color*/
+	background: #ffffff;
+	resize:none;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	
+}
+
+#DynamicFormPanel input[type="checkbox"], #DynamicFormPanel input[type="radio"] {
+	/*highight field color*/
+	outline: none;
+}
+.hideInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
   	box-shadow: none;
-  	/*padding: 2px;*/
-	
+  	/*padding: 2px;*/	
 }
-
-input.InputBoxUnderlined {
-	background-color: #ffffff;
-	border: none;
-	border-bottom: 1px solid;
-  	outline: none;
-  	box-shadow: none;
-  	padding: 2px;
-}
-	
 
 }
