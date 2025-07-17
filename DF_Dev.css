@@ -264,7 +264,7 @@ form {
 	resize:none;
 }
 
-textarea {
+#DynamicFormPanel.form-control input[type="textarea"] {
 	box-shadow: none; 
 	border: 1px solid #000000;
 	/*highight field color*/
