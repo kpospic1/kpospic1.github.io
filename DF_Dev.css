@@ -254,7 +254,7 @@ Only css classes. No ID css
   	border-bottom: 1px solid black;
 }
 
-.greyHeaderTable tr:first-child {
+.grayHeaderTable tr:first-child {
 	background-color: #eeeeee;
 }
 
