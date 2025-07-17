@@ -249,9 +249,9 @@ Only css classes. No ID css
 	
 }
 
-.insideHorizontalLinesTable tr:not(:first-child) {
+.horizontalLinesNoBorderTable tr {
 	border:none;
-  	border-top: 1px solid black;
+  	border-bottom: 1px solid black;
 }
 
 @media print {
