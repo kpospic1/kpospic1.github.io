@@ -203,8 +203,11 @@ button[type="submit"] {
 */
 
 .tooltip {
-	/*
-	position: absolute;
+	
+	position: relative;
+	top: 120%
+	
+	/*	
 	top: calc(100% + 0.649rem);
 	z-index: 1200;
 	max-width: 10rem;
