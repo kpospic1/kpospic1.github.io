@@ -205,6 +205,7 @@ button[type="submit"] {
 [role="tooltip"] {
 	
 	top: -150%;
+	left: 0;
 	border-radius: 0;
 	background-color: #003976;
 	font-size: 80%;
