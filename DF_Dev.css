@@ -205,18 +205,19 @@ button[type="submit"] {
 [role="tooltip"] {
 	
 	top: 130%;
-	
-	/*	
-	top: calc(100% + 0.649rem);
-	z-index: 1200;
-	*/
-	max-width: 10rem;
-	height: 18px;
-	padding: 0.75rem;
 	border-radius: 0;
 	background-color: #003976;
 	font-size: 80%;
 	color: #fefefe; }
+	/*	
+	top: calc(100% + 0.649rem);
+	z-index: 1200;
+	max-width: 10rem;
+	height: 18px;
+	padding: 0.75rem;
+	*/
+	
+}
 
 /* 
 Custom CSS classes fields. Added from Designer. Advanced field settings.
