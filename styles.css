@@ -138,7 +138,9 @@ table #FormPage {
     font-size: 14px;
 	font-family: 'Roboto Slab', sans-serif !important;
 }
-
+#DynamicFormPanel table {
+	border-collapse: collapse;
+}
 
 #DynamicFormPanel a:hover {
 	text-decoration: none;
@@ -203,6 +205,19 @@ Only css classes. No ID css
   font-family: 'Roboto Slab', sans-serif !important;
   font-size:20px;
 }
+
+
 .AnyName2 {
   color:#981b1e;
+}
+
+@media print {
+body {
+	background:none;
+	background-color:#ffffff;
+	
+}
+#formBody {
+	background:none;
+	background-color:#ffffff;
 }
