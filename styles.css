@@ -221,3 +221,12 @@ body {
 	background:none;
 	background-color:#ffffff;
 }
+form {
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	border-radius: none;
+}
+	
