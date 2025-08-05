@@ -89,6 +89,10 @@ div.form-group > div > div > div {
     margin: 5px 20px 5px 20px;
 }
 
+#FormPage textarea {
+	resize:none;
+}
+
 h1 {
 	font-size:30px;	
 	color:#000000;
