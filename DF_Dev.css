@@ -278,7 +278,7 @@ form {
 	border-stylet:none; 
 	border-bottom: 1px solid #000000;
 	/*highight field color*/
-	background: rgba(0,0,0,0);
+	background: rgba(255,255,255,0);
 	resize:none;
 }
 
@@ -286,7 +286,7 @@ form {
 	box-shadow: none; 
 	border: 1px solid #000000;
 	/*highight field color*/
-	background: #ffffff;
+	background: rgba(255,255,255,0);
 	resize:none;
 }
 select {
@@ -301,7 +301,7 @@ select {
 	outline: none;
 }
 .hideInputBoxOnPDF {
-	background-color: #ffffff;
+	background: rgba(255,255,255,0);
 	border: none;
   	outline: none;
   	box-shadow: none;
