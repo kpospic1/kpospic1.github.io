@@ -15,7 +15,8 @@ body {
 	background: #27406e;
 	/*background-image: url(https://kpospic1.github.io/KSUPlaza.png);*/
 	background-image:url(https://www-s3-live.kent.edu/s3fs-root/s3fs-public/file/Kent%20State%20Banner%20-%20Thick%20-%20900_0.png?VersionId=hvGKHwxBrpPMp_Wo0KVWOFRoG_yN9b77);
-	background-size: 100%;
+	background-repeat:no-repeat;
+	background-size: 100% auto;
 	/*background-size:cover;*/
 }
 /*
