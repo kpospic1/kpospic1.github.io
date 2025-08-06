@@ -188,17 +188,15 @@ input:disabled {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.tooltip {
-	position: absolute;
-	top: calc(100% + 0.649rem);
-	z-index: 1200;
-	max-width: 10rem;
-	height: 18px;
-	padding: 0.75rem;
+[role="tooltip"] {
+	top: -150%;
+	left: 0;
 	border-radius: 0;
 	background-color: #003976;
 	font-size: 80%;
 	color: #fefefe; }
+	
+}
 
 /* 
 Custom CSS classes fields. Added from Designer. Advanced field settings.
