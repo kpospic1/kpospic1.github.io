@@ -106,10 +106,6 @@ table #FormPage {
     	background-color: #ffffff;
 }
 
-.striped-table tr:nth-child(odd) {
-    background-color: #eeeeee;
-} 
-
 #DynamicFormPanel body, 
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
@@ -184,6 +180,10 @@ Custom CSS classes fields
 .AnyName2 {
   color:#981b1e;
 }
+
+.striped-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+} 
 
 @media print {
 body {
