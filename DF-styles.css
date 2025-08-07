@@ -162,9 +162,8 @@ input:disabled {
 	left: 0;
 	border-radius: 0;
 	background-color: #003976;
-	font-size: 90%;
-	color: #fefefe; }
-	
+	/*font-size: 90%;*/
+	color: #fefefe; 
 }
 
 /* 
