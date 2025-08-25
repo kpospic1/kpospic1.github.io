@@ -162,6 +162,7 @@ p {
 
 #DynamicFormPanel table {
 	border-collapse: collapse;
+	padding:3px;
 }
 
 #DynamicFormPanel a:hover {
@@ -240,18 +241,22 @@ Only css classes. No ID css
 
 .striped-table tr:nth-child(odd) {
     background-color: #eeeeee;
+	padding:3px;
 } 
 .allCellsOutlinedTable td {
 	border: 1px solid #000000;
+	padding:3px;
 }
 
 .outsideBorderTable {
 	border: 1px solid #000000;
+	padding:3px;
 }
 
 .horizontalLinesTable tr {
 	border:none;
 	border-bottom: 1px solid #000000;
+	padding:3px;
 	
 }
 
