@@ -226,6 +226,10 @@ button[type="submit"] {
 	
 }
 
+[role="radiogroup"] {
+	display: inline-flex;
+}
+
 /* 
 Custom CSS classes fields. Added from Designer. Advanced field settings.
 Do not remove Dot "." 
