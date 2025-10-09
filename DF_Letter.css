@@ -191,6 +191,7 @@ input:disabled {
 
 @media print {
 body {
+	print-color-adjust: exact;
 	background:none;
 	background-color:#ffffff;
 	
@@ -244,6 +245,7 @@ input {
 
 
 }
+
 
 
 
