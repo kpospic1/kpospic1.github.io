@@ -231,13 +231,14 @@ input {
 }
 
 
-#DynamicFormPanel.inputcontainer.mandatory::before {
+input.inputcontainer.mandatory::before {
 	content: '';
 	print-color-adjust: exact;
 }
 
 
 }
+
 
 
 
