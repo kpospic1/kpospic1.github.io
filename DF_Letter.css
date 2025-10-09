@@ -191,7 +191,6 @@ input:disabled {
 
 @media print {
 body {
-	print-color-adjust: exact;
 	background:none;
 	background-color:#ffffff;
 	
@@ -233,20 +232,18 @@ input {
 	display: none !important;
 }
 
-.inputcontainer::before {
-	color: white !important;
-	
+input:before {
+	content: '' !important;
+	display: none !important;
 }
-
-.inputcontainter:before {
+input::before {
 	content: '' !important;
 	display: none !important;
 }
 
 
-
-
 }
+
 
 
 
