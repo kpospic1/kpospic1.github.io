@@ -227,11 +227,12 @@ input {
 }
 
 
-inputcontainer::before {
+.inputcontainer.mandatory::before {
 	content: '';
 }
 
 }
+
 
 
 
