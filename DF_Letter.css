@@ -234,17 +234,20 @@ input {
 }
 
 .inputcontainer::before {
+	color: white !important;
+	
+}
+
+.inputcontainter:before {
 	content: '' !important;
 	display: none !important;
 }
 
-input::before {
-	content: '' !important;
-	display: none !important;
-}
+
 
 
 }
+
 
 
 
