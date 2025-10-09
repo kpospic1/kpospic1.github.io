@@ -1,7 +1,11 @@
 
 @charset "utf-8";
 
-/*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed*/
+/*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed
+Letter CSS FIle - 
+All fields underlined
+HIddenField availabled
+Required asterick hidden on PDF*/
 
 body {
     font-family: serif;
@@ -226,4 +230,5 @@ inputcontainer.mandatory::before {
 }
 
 }
+
 
