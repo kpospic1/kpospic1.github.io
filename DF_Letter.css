@@ -219,6 +219,11 @@ input {
   	box-shadow: none;
   	padding: 2px;
 }
-	
+
+
+inputcontainer.mandatory::before {
+	content: none;
+}
 
 }
+
