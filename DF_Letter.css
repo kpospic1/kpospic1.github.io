@@ -227,15 +227,14 @@ input {
 }
 
 
-.inputcontainer.mandatory::before {
+#DynamicFormPanel.inputcontainer.mandatory::before {
 	content: '';
+	print-color-adjust: exact;
 }
 
-#DynamicFormPanel input::before {
-	content: '';
-}
 
 }
+
 
 
 
