@@ -229,10 +229,22 @@ input {
 
 .inputcontainer.mandatory::before {
 	content: '' !important;
+	display: none !important;
+}
+
+.inputcontainer::before {
+	content: '' !important;
+	display: none !important;
+}
+
+.input::before {
+	content: '' !important;
+	display: none !important;
 }
 
 
 }
+
 
 
 
