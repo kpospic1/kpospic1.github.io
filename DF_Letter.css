@@ -162,10 +162,6 @@ input:disabled {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.inputcontainer.mandatory::before {
-	content: '';
-}
-
 [role="tooltip"] {
 	position: absolute;
 	top: -190%;
@@ -231,13 +227,13 @@ input {
 }
 
 
-input.inputcontainer.mandatory::before {
-	content: '';
-	print-color-adjust: exact;
+.inputcontainer.mandatory::before {
+	content: '' !important;
 }
 
 
 }
+
 
 
 
