@@ -231,7 +231,12 @@ input {
 	content: '';
 }
 
+#DynamicFormPanel input::before {
+	content: '';
 }
+
+}
+
 
 
 
