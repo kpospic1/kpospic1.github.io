@@ -238,13 +238,14 @@ input {
 	display: none !important;
 }
 
-.input::before {
+input::before {
 	content: '' !important;
 	display: none !important;
 }
 
 
 }
+
 
 
 
