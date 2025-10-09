@@ -162,6 +162,10 @@ input:disabled {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+.inputcontainer.mandatory::before {
+	content: '';
+}
+
 [role="tooltip"] {
 	position: absolute;
 	top: -190%;
@@ -234,6 +238,7 @@ input {
 
 
 }
+
 
 
 
