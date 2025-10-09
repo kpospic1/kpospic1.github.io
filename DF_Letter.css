@@ -228,10 +228,11 @@ input {
 
 
 inputcontainer::before {
-	content: none;
+	content: '';
 }
 
 }
+
 
 
 
