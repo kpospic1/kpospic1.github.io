@@ -10,7 +10,7 @@ Required asterick hidden on PDF*/
 body {
     font-family: serif;
 	width:100%;	
-	background-color:#C0C2C5;
+	background-color:#003876;
     font-variant-ligatures: no-common-ligatures;
 	font-size:13px;
 	background-size:cover;
@@ -37,12 +37,14 @@ form {
 	background-color:#fff;
 	margin:0 auto;
 	margin-top:60px;
+	/*
 	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
 	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	*/
 }
 
 #FormPage {
@@ -230,5 +232,6 @@ inputcontainer.mandatory::before {
 }
 
 }
+
 
 
