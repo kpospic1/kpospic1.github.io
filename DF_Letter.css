@@ -187,10 +187,6 @@ input:disabled {
     background-color: #eeeeee;
 } 
 
-.inputcontainer.mandatory::before {
-	content: '' !important;
-	display: none !important;
-}
 /* PDF Render print rules*/
 
 @media print {
@@ -212,7 +208,7 @@ form {
 	border-radius: none;
 }
 
-input.HiddenInputBox {
+input.hiddenInputBox {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
@@ -230,23 +226,23 @@ input {
   	padding: 2px;
 }
 
+.hideAsterisk {
+	content: '' !important;
+	display: none !important;
+}
+
+.hideAsterisk::before {
+	content: '' !important;
+	display: none !important;
+}
 
 .inputcontainer.mandatory::before {
 	content: '' !important;
 	display: none !important;
 }
 
-input:before {
-	content: '' !important;
-	display: none !important;
-}
-input::before {
-	content: '' !important;
-	display: none !important;
 }
 
-
-}
 
 
 
