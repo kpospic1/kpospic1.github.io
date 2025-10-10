@@ -235,10 +235,11 @@ input {
 }
 
 .inputcontainer::before {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 }
+
 
 
 
