@@ -187,6 +187,10 @@ input:disabled {
     background-color: #eeeeee;
 } 
 
+.inputcontainer.mandatory::before {
+	content: '' !important;
+	display: none !important;
+}
 /* PDF Render print rules*/
 
 @media print {
@@ -243,6 +247,7 @@ input::before {
 
 
 }
+
 
 
 
