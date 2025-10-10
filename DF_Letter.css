@@ -231,11 +231,6 @@ input {
   	padding: 2px;
 }
 
-.hideAsterisk {
-	content: '' !important;
-	display: none !important;
-}
-
 .hideAsterisk::before {
 	content: '' !important;
 	display: none !important;
@@ -247,6 +242,7 @@ input {
 }
 
 }
+
 
 
 
