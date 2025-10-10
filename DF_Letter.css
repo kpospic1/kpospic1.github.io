@@ -234,8 +234,12 @@ input {
 	
 }
 
+.inputcontainer::before {
+	color: #ffffff;
+}
 
 }
+
 
 
 
