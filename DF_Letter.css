@@ -234,17 +234,9 @@ input {
 	
 }
 
-.hideAsterisk::before {
-	content: '' !important;
-	display: none !important;
-}
-
-.inputcontainer.mandatory::before {
-	content: '' !important;
-	display: none !important;
-}
 
 }
+
 
 
 
