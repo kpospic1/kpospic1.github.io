@@ -3,13 +3,9 @@
 
 /*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed
 Letter CSS FIle - 
-All fields underlined
-HIddenField availabled
-Required asterick hidden on PDF
+All fields underlined on PDF by default
+hiddenInputBoxOnPDF available
 
-Body: #003876
-dark blue: #003879
-light blue: #003876
 */
 
 body {
@@ -213,7 +209,7 @@ form {
 	border-radius: none;
 }
 
-input.hiddenInputBox {
+input.hiddenInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
@@ -234,11 +230,8 @@ input {
 	
 }
 
-.inputcontainer::before {
-	color: #ffffff !important;
 }
 
-}
 
 
 
