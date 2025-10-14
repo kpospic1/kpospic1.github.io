@@ -188,6 +188,9 @@ input:disabled {
     background-color: #eeeeee;
 } 
 
+.alignTextBoxCenter {
+	text-align: center;
+}
 /* PDF Render print rules*/
 
 @media print {
@@ -231,6 +234,7 @@ input {
 }
 
 }
+
 
 
 
