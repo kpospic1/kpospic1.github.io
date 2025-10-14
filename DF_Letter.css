@@ -219,7 +219,13 @@ select.hiddenInputBoxOnPDF {
 	border: none;
   	outline: none;
   	box-shadow: none;
+	-webkit-appearance: none; /* For Chrome, Safari, and Opera */
+  	-moz-appearance: none;    /* For Firefox */
+ 	appearance: none;         /* Standard property */
 }
+
+
+
 	
 input {
 	background-color: #ffffff;
@@ -239,6 +245,7 @@ input {
 }
 	
 }
+
 
 
 
