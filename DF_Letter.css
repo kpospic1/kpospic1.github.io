@@ -187,7 +187,7 @@ input.alignTextBoxCenter {
 	text-align: center;
 }
 
-td.tableItemsToBottom {
+.tableItemsToBottom td {
 	vertical-align: bottom;
 }
 
@@ -251,6 +251,7 @@ input {
 }
 	
 }
+
 
 
 
