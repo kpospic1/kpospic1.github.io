@@ -180,13 +180,10 @@ input:disabled {
     background-color: #eeeeee;
 } 
 
-td:has(input.alignTextBoxCenter) {
+td:has(> input.alignTextBoxCenter) {
 	text-align: center;
 }
 
-div:has(input.alignTextBoxCenter) {
-	text-align: center;
-}
 /* PDF Render print rules*/
 
 @media print {
@@ -240,6 +237,7 @@ input {
 }
 	
 }
+
 
 
 
