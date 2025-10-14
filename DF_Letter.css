@@ -212,7 +212,7 @@ form {
 	border-radius: none;
 }
 
-input.hiddenInputBoxOnPDF {
+.hiddenInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
@@ -239,6 +239,7 @@ input {
 }
 	
 }
+
 
 
 
