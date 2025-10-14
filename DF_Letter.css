@@ -186,6 +186,12 @@ td:has(input.alignTextBoxCenter) {
 input.alignTextBoxCenter {
 	text-align: center;
 }
+
+td.tableItemsToBottom {
+	vertical-align: bottom;
+}
+
+
 /* PDF Render print rules*/
 
 @media print {
@@ -245,6 +251,7 @@ input {
 }
 	
 }
+
 
 
 
