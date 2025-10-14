@@ -183,7 +183,9 @@ input:disabled {
 td:has(input.alignTextBoxCenter) {
 	text-align: center;
 }
-
+input.alignTextBoxCenter {
+	text-align: center;
+}
 /* PDF Render print rules*/
 
 @media print {
@@ -237,6 +239,7 @@ input {
 }
 	
 }
+
 
 
 
