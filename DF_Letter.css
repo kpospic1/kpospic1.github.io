@@ -38,14 +38,6 @@ form {
 	background-color:#fff;
 	margin:0 auto;
 	margin-top:60px;
-	/*
-	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	*/
 }
 
 #FormPage {
@@ -216,7 +208,14 @@ form {
 	border-radius: none;
 }
 	
-.hiddenInputBoxOnPDF .hiddenInputBoxOnPDF[disabled] {
+input.hiddenInputBoxOnPDF {
+	background-color: #ffffff;
+	border: none;
+  	outline: none;
+  	box-shadow: none;
+}
+
+select.hiddenInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
@@ -241,6 +240,7 @@ input {
 }
 	
 }
+
 
 
 
