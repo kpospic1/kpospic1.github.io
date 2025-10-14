@@ -242,12 +242,9 @@ input {
 	
 }
 
-.inputcontainer::before {
-	color: rgba(0,0,0,0) !important;
 	
 }
-	
-}
+
 
 
 
