@@ -183,7 +183,7 @@ input:disabled {
 td:has(input.alignTextBoxCenter) {
 	text-align: center;
 }
-input.alignTextBoxCenter {
+.alignTextBoxCenter input{
 	text-align: center;
 }
 
@@ -244,6 +244,7 @@ input {
 
 	
 }
+
 
 
 
