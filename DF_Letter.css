@@ -180,7 +180,7 @@ input:disabled {
     background-color: #eeeeee;
 } 
 
-td:has(> input.alignTextBoxCenter) {
+div:has(> input.alignTextBoxCenter) {
 	text-align: center;
 }
 
@@ -237,6 +237,7 @@ input {
 }
 	
 }
+
 
 
 
