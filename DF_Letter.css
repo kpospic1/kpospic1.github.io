@@ -234,12 +234,13 @@ input {
 	
 }
 
-.mandatory::before .mandatory::before[disabled] {
+.mandatory::before {
 	content: none !important;
 	display: none !important;
 }
 	
 }
+
 
 
 
