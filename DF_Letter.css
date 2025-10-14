@@ -215,16 +215,14 @@ form {
 	-moz-border-radius: none;
 	border-radius: none;
 }
-
-.hiddenInputBoxOnPDF {
+	
+.hiddenInputBoxOnPDF .hiddenInputBoxOnPDF[disabled] {
 	background-color: #ffffff;
 	border: none;
   	outline: none;
   	box-shadow: none;
-  	/*padding: 2px;*/
-	
 }
-
+	
 input {
 	background-color: #ffffff;
 	border: none;
@@ -237,12 +235,13 @@ input {
 	
 }
 
-.mandatory::before {
+.mandatory::before .mandatory::before[disabled] {
 	content: none !important;
 	display: none !important;
 }
 	
 }
+
 
 
 
