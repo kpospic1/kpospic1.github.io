@@ -196,6 +196,14 @@ td:has(input.alignTextBoxCenter) {
 	text-indent: 20px;
 }
 
+.underlinedInputBox {
+	background-color: #ffffff;
+	border: none;
+	border-bottom: 1px solid;
+  	outline: none;
+  	box-shadow: none;
+}
+
 /* PDF Render print rules*/
 
 @media print {
@@ -248,4 +256,5 @@ input {
 
 	
 }
+
 
