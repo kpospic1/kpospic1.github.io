@@ -1,4 +1,5 @@
 
+
 @charset "utf-8";
 
 /*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed
@@ -183,7 +184,7 @@ input:disabled {
 td:has(input.alignTextBoxCenter) {
 	text-align: center;
 }
-.alignTextBoxCenter input{
+.alignTextBoxCenter input {
 	text-align: center;
 }
 
@@ -191,6 +192,9 @@ td:has(input.alignTextBoxCenter) {
 	vertical-align: bottom;
 }
 
+.indentLabel label {
+	text-indent: 20px;
+}
 
 /* PDF Render print rules*/
 
@@ -244,48 +248,4 @@ input {
 
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
