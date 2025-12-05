@@ -97,6 +97,7 @@ p {
 a {
   text-decoration: underline;
 }
+
 #DynamicFormPanel table td {
 	padding-bottom:2px;
 }
@@ -117,10 +118,6 @@ table #FormPage {
 }
 #DynamicFormPanel table {
 	border-collapse: collapse;
-}
-
-#DynamicFormPanel a:hover {
-	text-decoration: none;
 }
 
 #formnavbuttons input {
