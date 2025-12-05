@@ -1,0 +1,251 @@
+
+
+@charset "utf-8";
+
+/*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed
+Letter CSS FIle - 
+All fields underlined on PDF by default
+hiddenInputBoxOnPDF available
+
+*/
+
+body {
+    font-family: serif;
+	width:100%;	
+	background-color:#003876;
+    font-variant-ligatures: no-common-ligatures;
+	font-size:13px;
+	background-size:cover;
+}
+
+body #formBody {
+    	background-color: #e4e2e0;
+}
+
+hr {
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 15px;
+	maring-bottom: 15px;
+	border:0;
+	background-color: #003879;
+	height: 3px;
+	width: 100%;
+
+}
+
+form {
+	width:1080px;
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:60px;
+}
+
+#FormPage {
+    	margin: 0 auto; 
+}
+
+
+div.form-group > div > div > div {
+	height: 30px;
+    	letter-spacing: 1.5px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	border: 1px solid #eeeeee;
+}
+
+.form-group:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    	background-color: white;
+    	opacity: 1;
+}
+
+.FormStyle {
+    	margin: 5px 20px 5px 20px;
+}
+
+#FormPage textarea {
+	resize:none;
+}
+
+h1 {
+	font-size:30px;	
+	color:#000000;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	border-bottom:1px solid #ccc;
+	font-size:18px;	
+}
+
+h4 {
+	font-size:16px;
+}
+
+p {
+	font-size:14px;
+	line-height:20px;
+}
+
+a {
+  text-decoration: underline;
+}
+#DynamicFormPanel table td {
+	padding-bottom:2px;
+}
+
+table #FormPage {
+    	border: 1px solid lightgray;
+    	border-radius: 15px 25px 10px; 
+    	box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
+    	background-color: #ffffff;
+}
+
+#DynamicFormPanel body, 
+#DynamicFormPanel td, 
+#DynamicFormPanel input, 
+#DynamicFormPanel textarea {
+    font-size: 14px;
+	font-family: 'Roboto Slab', sans-serif !important;
+}
+#DynamicFormPanel table {
+	border-collapse: collapse;
+}
+
+#DynamicFormPanel a:hover {
+	text-decoration: none;
+}
+
+#formnavbuttons input {
+	font-size:14px;
+	font-family: 'Roboto Slab', sans-serif !important;
+	color: white;
+	background-color: #003879;
+	width:140px !important;
+	border: none;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#formnavbuttons input:hover {
+	cursor: pointer;
+}
+
+#SaveAsDraftButton {
+    color: #ffffff;
+    background-color: #494440;
+}
+
+button[type="submit"] {
+    color: #ffffff;
+    background-color: #003976;
+}
+
+select:disabled,
+textarea:disabled,
+input:disabled {
+	font-weight:bold;
+}
+
+.inputcontainer {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+[role="tooltip"] {
+	position: absolute;
+	top: -190%;
+	left: 0;
+	border-radius: 0;
+	background-color: #003976;
+	font-size: 90%;
+	color: #fefefe; 
+}
+
+/* Custom CSS classes fields*/
+
+.AnyName1 {
+  font-family: 'Roboto Slab', sans-serif !important;
+  font-size:20px;
+}
+
+.AnyName2 {
+  color:#981b1e;
+}
+
+.striped-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+} 
+
+td:has(input.alignTextBoxCenter) {
+	text-align: center;
+}
+.alignTextBoxCenter input {
+	text-align: center;
+}
+
+.tableItemsToBottom td {
+	vertical-align: bottom;
+}
+
+
+/* PDF Render print rules*/
+
+@media print {
+body {
+	background:none;
+	background-color:#ffffff;
+	
+}
+#formBody {
+	background:none;
+	background-color:#ffffff;
+}
+form {
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	border-radius: none;
+}
+	
+input.hiddenInputBoxOnPDF {
+	background-color: #ffffff;
+	border: none;
+  	outline: none;
+  	box-shadow: none;
+}
+
+select.hiddenInputBoxOnPDF {
+	background-color: #ffffff;
+	border: none;
+  	outline: none;
+  	box-shadow: none;
+	-webkit-appearance: none; /* For Chrome, Safari, and Opera */
+  	-moz-appearance: none;    /* For Firefox */
+ 	appearance: none;         /* Standard property */
+}
+	
+input {
+	background-color: #ffffff;
+	border: none;
+	border-bottom: 1px solid;
+  	outline: none;
+  	box-shadow: none;
+  	padding: 2px;
+	font-size: 16px !important; 
+	font-family: 'Roboto Slab', sans-serif !important;
+	
+}
+
+	
+}
+
