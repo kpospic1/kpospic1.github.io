@@ -2,10 +2,9 @@
 
 @charset "utf-8";
 
-/*Version 1.1 KSU Dynamic Forms CSS File.  PDF Rendering Fixed
-Letter CSS FIle - 
-All fields underlined on PDF by default
-hiddenInputBoxOnPDF available
+/*Version 1.1 KSU Dynamic Forms CSS File.  
+PDF Rendering Fixed
+WCAG
 
 */
 
@@ -140,14 +139,14 @@ table #FormPage {
 	cursor: pointer;
 }
 
-#SaveAsDraftButton {
+.SaveAsDraftButton {
     color: #ffffff;
-    background-color: #494440;
+    background-color: #003879;
 }
 
 button[type="submit"] {
     color: #ffffff;
-    background-color: #003976;
+    background-color: #003979;
 }
 
 select:disabled,
@@ -161,26 +160,11 @@ input:disabled {
 }
 
 [role="tooltip"] {
-	/*position: absolute;
-	top: -190%;
-	left: 0;
-	border-radius: 0;
-	background-color: #003976;
-	*/
 	font-size: 90%;
 	color: #fefefe; 
 }
 
 /* Custom CSS classes fields*/
-
-.AnyName1 {
-  font-family: 'Roboto Slab', sans-serif !important;
-  font-size:20px;
-}
-
-.AnyName2 {
-  color:#981b1e;
-}
 
 .striped-table tr:nth-child(odd) {
     background-color: #eeeeee;
@@ -210,15 +194,7 @@ body {
 	background:none;
 	background-color:#ffffff;
 }
-form {
-	-webkit-box-shadow:none;
-	-moz-box-shadow:none;
-	box-shadow:none;
-	-webkit-border-radius: none;
-	-moz-border-radius: none;
-	border-radius: none;
-}
-	
+
 input.hiddenInputBoxOnPDF {
 	background-color: #ffffff;
 	border: none;
