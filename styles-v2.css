@@ -9,7 +9,7 @@ WCAG
 */
 
 body {
-    font-family: serif;
+    /*font-family: serif;*/
 	width:100%;	
 	background-color:#003876;
     font-variant-ligatures: no-common-ligatures;
@@ -18,7 +18,7 @@ body {
 }
 
 body #formBody {
-    	background-color: #e4e2e0;
+    background-color: #e4e2e0;
 }
 
 hr {
@@ -60,12 +60,12 @@ div.form-group > div > div > div {
 }
 
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    	background-color: white;
-    	opacity: 1;
+    background-color: white;
+    opacity: 1;
 }
 
 .FormStyle {
-    	margin: 5px 20px 5px 20px;
+    margin: 5px 20px 5px 20px;
 }
 
 #FormPage textarea {
@@ -111,28 +111,26 @@ table #FormPage {
     	box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
     	background-color: #ffffff;
 }
-/*
+
 #DynamicFormPanel body, 
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    font-size: 14px;
-	font-family: 'Roboto Slab', sans-serif !important;
+    font: 14px arial;
 }
-*/
 #DynamicFormPanel table {
 	border-collapse: collapse;
 }
 
 #formnavbuttons input {
-	/*font-size:14px;
-	font-family: 'Roboto Slab', sans-serif !important;*/
+	font:14px arial;
+	/*font-family: 'Roboto Slab', sans-serif !important;*/
 	color: white;
 	background-color: #003879;
 	width:140px !important;
 	border: none;
 	padding: 5px;
-	/*font-weight: bold;*/
+	font-weight: bold;
 	border-radius: 3px;
 }
 
