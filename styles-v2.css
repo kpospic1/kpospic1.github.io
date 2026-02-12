@@ -177,6 +177,14 @@ td:has(input.alignTextBoxCenter) {
 	text-align: center;
 }
 
+td:has(.alignElementCenter) {
+	text-align: center;
+}
+.alignElementCenter input {
+	text-align: center;
+}
+
+
 .tableItemsToBottom td {
 	vertical-align: bottom;
 }
