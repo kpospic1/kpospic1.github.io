@@ -180,7 +180,7 @@ td:has(input.alignTextBoxCenter) {
 td:has(.alignElementCenter) {
 	text-align: center;
 }
-.alignElementCenter input {
+.alignElementCenter {
 	text-align: center;
 }
 
