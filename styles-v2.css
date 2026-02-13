@@ -116,7 +116,7 @@ table #FormPage {
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    /*font: 14px arial;*/
+    font: 14px arial !important;
 }
 #DynamicFormPanel table {
 	border-collapse: collapse;
