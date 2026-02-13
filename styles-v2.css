@@ -13,7 +13,7 @@ body {
 	width:100%;	
 	background-color:#003876;
     font-variant-ligatures: no-common-ligatures;
-	/*font-size:13px;*/
+	font-size:14px;
 	background-size:cover;
 }
 
@@ -116,7 +116,7 @@ table #FormPage {
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    font: 14px arial !important;
+    font-size:14px;
 }
 #DynamicFormPanel table {
 	border-collapse: collapse;
