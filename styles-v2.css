@@ -194,12 +194,12 @@ td:has(.alignElementCenter) {
 @media print {
 body {
 	background:none;
-	background-color:#ffffff;
+	background-color:transparent;
 	
 }
 #formBody {
 	background:none;
-	background-color:#ffffff;
+	background-color:transparent;
 }
 
 input.hiddenInputBoxOnPDF {
