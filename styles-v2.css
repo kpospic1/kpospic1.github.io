@@ -162,7 +162,7 @@ input:disabled {
 	font-size: 90%;
 	color: #fefefe; 
 }
-
+/*
 .sigdatelabel {
 	padding-top: 2px;
     background-color: transparent;
@@ -172,6 +172,7 @@ input:disabled {
 	padding-top: 2px;
     background-color: transparent;
 }
+*/
 /* Custom CSS classes fields*/
 
 .striped-table tr:nth-child(odd) {
