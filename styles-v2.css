@@ -60,7 +60,7 @@ div.form-group > div > div > div {
 }
 
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: transparent;
+    background-color: #ffffff;
     opacity: 1;
 }
 
@@ -220,12 +220,12 @@ td:has(.alignElementCenter) {
 @media print {
 body {
 	background:none;
-	background-color:transparent;
+	background-color: #ffffff;
 	
 }
 #formBody {
 	background:none;
-	background-color:transparent;
+	background-color: #ffffff;
 }
 
 input.hiddenInputBoxOnPDF {
