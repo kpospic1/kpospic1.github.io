@@ -225,7 +225,6 @@ td:has(.alignElementCenter) {
 }
 
 /* PDF Render print rules*/
-
 @media print {
 body {
 	background:none;
@@ -237,14 +236,14 @@ body {
 	background-color: #ffffff;
 }
 
-input.hiddenInputBoxOnPDF {
+.hiddenInputBoxOnPDF input {
 	background-color: rgba(255,255,255,0);
 	border: none;
   	outline: none;
   	box-shadow: none;
 }
 
-select.hiddenInputBoxOnPDF {
+.hiddenInputBoxOnPDF select {
 	background-color: rgba(255,255,255,0);
 	border: none;
   	outline: none;
