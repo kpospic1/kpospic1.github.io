@@ -188,6 +188,32 @@ td:has(.alignElementCenter) {
 	vertical-align: bottom;
 }
 
+allCellsOutlinedTable td {
+	border: 1px solid #000000;
+	padding:3px;
+}
+
+.outsideBorderTable {
+	border: 1px solid #000000;
+	padding:3px;
+}
+
+.horizontalLinesTable tr {
+	border:none;
+	border-bottom: 1px solid #000000;
+	padding:3px;
+	
+}
+
+.grayHeaderTable tr:first-child {
+	background-color: #eeeeee;
+}
+
+.darkBlueHeaderTable tr:first-child{
+	background-color:#003879;
+	color:#ffffff;
+
+}
 
 /* PDF Render print rules*/
 
