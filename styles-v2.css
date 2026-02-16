@@ -203,14 +203,14 @@ body {
 }
 
 input.hiddenInputBoxOnPDF {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0);
 	border: none;
   	outline: none;
   	box-shadow: none;
 }
 
 select.hiddenInputBoxOnPDF {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0);
 	border: none;
   	outline: none;
   	box-shadow: none;
@@ -220,7 +220,7 @@ select.hiddenInputBoxOnPDF {
 }
 	
 input {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0);
 	border: none;
 	border-bottom: 1px solid;
   	outline: none;
