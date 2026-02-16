@@ -259,6 +259,16 @@ textarea.hiddenInputBoxOnPDF {
   	outline: none;
   	box-shadow: none;
 }
+
+.hideInputBordersOnPDF {
+	background-color: rgba(255,255,255,0);
+	border: none;
+  	outline: none;
+  	box-shadow: none;
+	-webkit-appearance: none; /* For Chrome, Safari, and Opera */
+  	-moz-appearance: none;    /* For Firefox */
+ 	appearance: none;  
+}
 	
 input {
 	background-color: rgba(255,255,255,0);
