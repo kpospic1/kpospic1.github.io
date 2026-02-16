@@ -236,13 +236,8 @@ body {
 	background-color: #ffffff;
 }
 
-input.hiddenInputBoxOnPDF {
-	background-color: rgba(255,255,255,0);
-	border: none;
-  	outline: none;
-  	box-shadow: none;
-}
-
+input.hiddenInputBoxOnPDF,
+textarea.hiddenInputBoxOnPDF,
 select.hiddenInputBoxOnPDF {
 	background-color: rgba(255,255,255,0);
 	border: none;
@@ -251,23 +246,6 @@ select.hiddenInputBoxOnPDF {
 	-webkit-appearance: none; /* For Chrome, Safari, and Opera */
   	-moz-appearance: none;    /* For Firefox */
  	appearance: none;         /* Standard property */
-}
-
-textarea.hiddenInputBoxOnPDF {
-	background-color: rgba(255,255,255,0);
-	border: none;
-  	outline: none;
-  	box-shadow: none;
-}
-
-.hideInputBordersOnPDF {
-	background-color: rgba(255,255,255,0);
-	border: none;
-  	outline: none;
-  	box-shadow: none;
-	-webkit-appearance: none; /* For Chrome, Safari, and Opera */
-  	-moz-appearance: none;    /* For Firefox */
- 	appearance: none;  
 }
 	
 input {
