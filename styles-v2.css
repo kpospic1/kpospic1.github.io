@@ -188,7 +188,7 @@ td:has(.alignElementCenter) {
 	vertical-align: bottom;
 }
 
-allCellsOutlinedTable td {
+.allCellsOutlinedTable td {
 	border: 1px solid #000000;
 	padding:3px;
 }
