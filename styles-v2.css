@@ -130,7 +130,7 @@ a {
 #formnavbuttons input:hover {
 	cursor: pointer;
 }
-
+/*
 .SaveAsDraftButton {
     color: #ffffff;
     background-color: #003879;
@@ -140,7 +140,7 @@ button[type="submit"] {
     color: #ffffff;
     background-color: #003979;
 }
-
+*/
 select:disabled,
 textarea:disabled,
 input:disabled {
