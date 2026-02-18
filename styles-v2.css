@@ -120,10 +120,9 @@ a {
 	font: 14px arial;
 	color: white;
 	background-color: #003879;
-	width:140px !important;
+	min-width:120px !important;
 	border: none;
-	padding: 5px;
-	font-weight: bold;
+	padding: 3px;
 	border-radius: 3px;
 }
 
