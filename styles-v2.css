@@ -13,7 +13,7 @@ body {
 	width:100%;	
 	background-color:#003876;
     font-variant-ligatures: no-common-ligatures;
-	font-size:14px;
+	/*font-size:14px;*/
 	background-size:cover;
 }
 
@@ -104,27 +104,20 @@ a {
 #DynamicFormPanel table td {
 	padding-bottom:2px;
 }
-/*
-table #FormPage {
-    	border: 1px solid lightgray;
-    	border-radius: 15px 25px 10px; 
-    	box-shadow: 0 0 0 3px rgba(191, 175, 188, .5);
-    	background-color: #ffffff;
-}*/
 
 #DynamicFormPanel body, 
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    font: 16px Arial;
+    font: 14px Arial;
 }
+
 #DynamicFormPanel table {
 	border-collapse: collapse;
 }
 
 #formnavbuttons input {
 	font: 14px arial;
-	/*font-family: 'Roboto Slab', sans-serif !important;*/
 	color: white;
 	background-color: #003879;
 	width:140px !important;
@@ -162,17 +155,7 @@ input:disabled {
 	font-size: 90%;
 	color: #fefefe; 
 }
-/*
-.sigdatelabel {
-	padding-top: 2px;
-    background-color: transparent;
-}
 
-.sigwidgetlabel {
-	padding-top: 2px;
-    background-color: transparent;
-}
-*/
 /* Custom CSS classes fields*/
 
 .striped-table tr:nth-child(odd) {
