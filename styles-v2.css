@@ -9,11 +9,11 @@ WCAG
 */
 
 body {
-    /*font-family: serif;*/
+    font-size: 14px;
+	font-family: arial;
 	width:100%;	
 	background-color:#003876;
     font-variant-ligatures: no-common-ligatures;
-	/*font-size:14px;*/
 	background-size:cover;
 }
 
@@ -109,7 +109,8 @@ a {
 #DynamicFormPanel td, 
 #DynamicFormPanel input, 
 #DynamicFormPanel textarea {
-    font: 14px Arial;
+    font-size: 14px;
+	font-family: arial;
 }
 
 #DynamicFormPanel table {
@@ -117,7 +118,8 @@ a {
 }
 
 #formnavbuttons input {
-	font: 14px arial;
+	font-size: 14px;
+	font-family: arial;
 	color: white;
 	background-color: #003879;
 	min-width:120px !important;
@@ -129,26 +131,7 @@ a {
 #formnavbuttons input:hover {
 	cursor: pointer;
 }
-/*
-.SaveAsDraftButton {
-    color: #ffffff;
-    background-color: #003879;
-}
 
-button[type="submit"] {
-    color: #ffffff;
-    background-color: #003979;
-}
-*/
-select:disabled,
-textarea:disabled,
-input:disabled {
-	/*font-weight:bold;*/
-}
-
-.inputcontainer {
-   /*font-family: Arial, Helvetica, sans-serif;*/
-}
 
 [role="tooltip"] {
 	font-size: 90%;
@@ -244,4 +227,3 @@ input {
 
 	
 }
-
