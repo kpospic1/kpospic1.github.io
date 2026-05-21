@@ -92,7 +92,7 @@ h4 {
 }
 
 p {
-	/*font-size:14px;*/
+	font-size:14px;
 	line-height:20px;
     color:#000000;
 }
@@ -140,14 +140,14 @@ a {
 
 /* Custom CSS classes fields*/
 
-.striped-table tr:nth-child(odd) {
+.striped-table > tr:nth-child(odd) {
     background-color: #eeeeee;
 } 
 
 td:has(input.alignTextBoxCenter) {
 	text-align: center;
 }
-.alignTextBoxCenter input {
+.alignTextBoxCenter > input {
 	text-align: center;
 }
 
@@ -158,12 +158,11 @@ td:has(.alignElementCenter) {
 	text-align: center;
 }
 
-
-.tableItemsToBottom td {
+.tableItemsToBottom > td {
 	vertical-align: bottom;
 }
 
-.allCellsOutlinedTable td {
+.allCellsOutlinedTable > td {
 	border: 1px solid #000000;
 	padding:3px;
 }
@@ -173,18 +172,18 @@ td:has(.alignElementCenter) {
 	padding:3px;
 }
 
-.horizontalLinesTable tr {
+.horizontalLinesTable > tr {
 	border:none;
 	border-bottom: 1px solid #000000;
 	padding:3px;
 	
 }
 
-.grayHeaderTable tr:first-child {
+.grayHeaderTable > tr:first-child {
 	background-color: #eeeeee;
 }
 
-.darkBlueHeaderTable tr:first-child{
+.darkBlueHeaderTable > tr:first-child{
 	background-color:#003879;
 	color:#ffffff;
 
