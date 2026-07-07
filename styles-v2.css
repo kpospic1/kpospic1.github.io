@@ -189,7 +189,7 @@ td:has(.alignElementCenter) {
 
 }
 
-.hideBlankTableRows table tr:has(> td:nth-child(1)>input[value=''] {
+.hideBlankTableRows table tr:has(> td:nth-child(1)>input[value='']) {
 	display: none;
 }
 
