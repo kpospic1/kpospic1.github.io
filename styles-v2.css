@@ -189,6 +189,10 @@ td:has(.alignElementCenter) {
 
 }
 
+.hideBlankTableRows table tr:has(> td:nth-child(1)>input[value=''] {
+	display: none;
+}
+
 /* PDF Render print rules*/
 @media print {
 body {
